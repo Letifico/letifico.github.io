@@ -88759,7 +88759,7 @@ l=t.P.a(B.aY.zy(A.aXz(A.aV2(g.e)).eo(g.w),null))
 g=A.Is(J.eR(l,"version_code"))
 f=g==null?null:B.d.dz(g)
 k=f==null?0:f
-if(k<=2||n.c==null){s=1
+if(k<=3||n.c==null){s=1
 break}j=A.bd(J.eR(l,"url_descarga"))
 i=A.bd(J.eR(l,"version_nombre"))
 h=A.bd(J.eR(l,"notas"))

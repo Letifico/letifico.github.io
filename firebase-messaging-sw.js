@@ -3,6 +3,12 @@
 importScripts('https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js');
 importScripts('https://www.gstatic.com/firebasejs/10.12.2/firebase-messaging-compat.js');
 
+// Blindaje anti-caché: cuando hay un service worker nuevo, se activa al
+// instante y toma el control de las pestañas abiertas, sin esperar. Así la
+// gente ve la última versión sin tener que reinstalar.
+self.addEventListener('install', () => self.skipWaiting());
+self.addEventListener('activate', (event) => event.waitUntil(self.clients.claim()));
+
 firebase.initializeApp({
   apiKey: "AIzaSyBf0Kb00KVWfMLnDt0vqC-1pDs9MpTEzdk",
   authDomain: "san-luis-38158.firebaseapp.com",

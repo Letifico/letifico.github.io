@@ -3,8 +3,10 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "da897c3f44d05a94916d13d1e0579560",
-"assets/AssetManifest.bin.json": "fd74556cab95fb0d735ee2095aceaf7f",
+const RESOURCES = {"assets/AssetManifest.bin": "2041f37ba94e2510ca376bec5977095a",
+"assets/AssetManifest.bin.json": "c79bf55b60a32db11cff301f50440249",
+"assets/assets/cab-noches-magicas.jpg": "84eaaab21ab121b1a617bb32180f25f8",
+"assets/assets/cab-san-luis.jpg": "3e2d6f01a401fa88265e80887ad672c2",
 "assets/assets/cartel-noches-magicas-2026.jpg": "81e28355f723e488f2acbcce5c8cbf76",
 "assets/assets/cartel-san-luis-2026.jpg": "c7647c56fc28ddc7e35ca071be66e898",
 "assets/assets/fondo-inicio.jpg": "e80b85c53b9c349501943a9451df8c92",
@@ -32,12 +34,12 @@ const RESOURCES = {"assets/AssetManifest.bin": "da897c3f44d05a94916d13d1e0579560
 "canvaskit/skwasm_heavy.wasm": "b0be7910760d205ea4e011458df6ee01",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "flutter.js": "24bc71911b75b5f8135c949e27a2984e",
-"flutter_bootstrap.js": "ffefa4b417ac90903468963eeaee6ebc",
+"flutter_bootstrap.js": "e1e637401d04a3e142923f359b6008cd",
 "icons/Icon-192.png": "eae62ff026607b8d43f3b658c2bce650",
 "icons/Icon-512.png": "eae62ff026607b8d43f3b658c2bce650",
 "index.html": "4162ed08743223b44fbc18a511e998ab",
 "/": "4162ed08743223b44fbc18a511e998ab",
-"main.dart.js": "52e460dfa9f5628b9cf650d374b0efd8",
+"main.dart.js": "47fc13dceca57cc3ea7c1a1da685fd3f",
 "manifest.json": "c5718163eeb1c6940ea1d6dd216a3fcc",
 "version.json": "ad70da3efafc5f7001d9048d0a1d3ae1"};
 // The application shell files that are downloaded before a service worker can

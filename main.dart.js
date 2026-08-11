@@ -89220,7 +89220,7 @@ s.e=this.b==="ok"},
 $S:0}
 A.S0.prototype={
 K(a){var s=null,r=B.i.aS(0.06),q=A.bV(14),p=A.e2(B.i.aS(0.22),1),o=A.e2(B.G,1.5)
-return A.ds(s,A.br(s,A.bH(A.b([A.br(B.V,A.ab("i",s,s,s,s,A.fV().$4$color$fontSize$fontStyle$fontWeight(B.G,17,B.aQ,B.B),s,s),B.l,s,s,new A.b8(s,s,o,s,s,s,B.bG),30,s,s,30),B.S3,A.dl(A.ab("Informaci\xf3n del pueblo",s,s,s,s,A.aA().$3$color$fontSize$fontWeight(B.i.aS(0.92),14,B.B),s,s)),A.fe(B.oZ,B.i.aS(0.5),s,22)],t.p),B.A,B.n,B.t),B.l,s,s,new A.b8(r,s,p,q,s,s,B.z),60,s,B.k1,s),B.M,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,new A.amt(a),s,s,s,s,s,s)}}
+return A.ds(s,A.br(s,A.bH(A.b([A.br(B.V,A.ab("i",s,s,s,s,A.fV().$4$color$fontSize$fontStyle$fontWeight(B.G,17,B.aQ,B.B),s,s),B.l,s,s,new A.b8(s,s,o,s,s,s,B.bG),30,s,s,30),B.S3,A.dl(A.ab("Informaci\xf3n",s,s,s,s,A.aA().$3$color$fontSize$fontWeight(B.i.aS(0.92),14,B.B),s,s)),A.fe(B.oZ,B.i.aS(0.5),s,22)],t.p),B.A,B.n,B.t),B.l,s,s,new A.b8(r,s,p,q,s,s,B.z),60,s,B.k1,s),B.M,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,s,new A.amt(a),s,s,s,s,s,s)}}
 A.amt.prototype={
 $0(){return A.dH(this.a,!1).lP(A.azE(new A.ams(),null,t.z))},
 $S:0}
@@ -89273,7 +89273,7 @@ if(b.c!=null||b.b==null)return A.fx(new A.bj(B.k3,A.ab("No se pudo cargar la inf
 s=t.kc.a(b.b.h(0,"secciones"))
 if(s==null)s=B.dU
 r=t.p
-r=A.b([new A.PZ(A.br(q,A.id(!1,new A.bj(B.Gw,A.cf(A.b([A.ds(q,A.bH(A.b([A.fe(B.p4,B.i.aS(0.85),q,16),B.eh,A.ab("Inicio",q,q,q,q,A.aA().$3$color$fontSize$fontWeight(B.i.aS(0.85),11.5,B.B),q,q)],r),B.A,B.n,B.t),B.M,!1,q,q,q,q,q,q,q,q,q,q,q,q,q,q,new A.a85(a),q,q,q,q,q,q),B.bN,A.ab("Informaci\xf3n del pueblo",q,q,q,q,A.fV().$4$color$fontSize$fontStyle$fontWeight(B.G,26,B.aQ,B.B),q,q)],r),B.L,B.n,B.t),q),!1,B.ah,!0),B.l,q,q,B.mR,q,q,q,q),q),new A.CL(B.k2,A.aFS(new A.PV(new A.a86(this.a,s),J.ck(s),!0,!0,!0,A.aZ7(),q)),q)],r)
+r=A.b([new A.PZ(A.br(q,A.id(!1,new A.bj(B.Gw,A.cf(A.b([A.ds(q,A.bH(A.b([A.fe(B.p4,B.i.aS(0.85),q,16),B.eh,A.ab("Inicio",q,q,q,q,A.aA().$3$color$fontSize$fontWeight(B.i.aS(0.85),11.5,B.B),q,q)],r),B.A,B.n,B.t),B.M,!1,q,q,q,q,q,q,q,q,q,q,q,q,q,q,new A.a85(a),q,q,q,q,q,q),B.bN,A.ab("Informaci\xf3n",q,q,q,q,A.fV().$4$color$fontSize$fontStyle$fontWeight(B.G,26,B.aQ,B.B),q,q)],r),B.L,B.n,B.t),q),!1,B.ah,!0),B.l,q,q,B.mR,q,q,q,q),q),new A.CL(B.k2,A.aFS(new A.PV(new A.a86(this.a,s),J.ck(s),!0,!0,!0,A.aZ7(),q)),q)],r)
 return new A.KN(r,B.ax,!1,q,q,B.jh,q,!1,q,0,q,q,B.lZ,B.M,q,q,B.C,B.ap,q)},
 $S:590}
 A.a85.prototype={

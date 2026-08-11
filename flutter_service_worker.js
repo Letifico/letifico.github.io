@@ -3,18 +3,19 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "2041f37ba94e2510ca376bec5977095a",
-"assets/AssetManifest.bin.json": "c79bf55b60a32db11cff301f50440249",
+const RESOURCES = {"assets/AssetManifest.bin": "3cb01fa24be964c80e0edea82fb62267",
+"assets/AssetManifest.bin.json": "9f21a02250d6e6e2f0f83fb5c350a3f4",
 "assets/assets/cab-noches-magicas.jpg": "84eaaab21ab121b1a617bb32180f25f8",
 "assets/assets/cab-san-luis.jpg": "3e2d6f01a401fa88265e80887ad672c2",
 "assets/assets/cartel-noches-magicas-2026.jpg": "81e28355f723e488f2acbcce5c8cbf76",
 "assets/assets/cartel-san-luis-2026.jpg": "c7647c56fc28ddc7e35ca071be66e898",
 "assets/assets/fondo-inicio.jpg": "e80b85c53b9c349501943a9451df8c92",
+"assets/assets/info-pueblo.json": "239ca8a3872f8410782b0f3abe2500c1",
 "assets/assets/noches-magicas-2026.json": "46812d8b2c5585b8c4b718ccccd4684f",
 "assets/assets/programa-2025.json": "19c08ca74dcdbc6d5be6d5d98fb8b7ab",
-"assets/assets/programa-2026.json": "0ebae85ec020aa66190b41b295225ac1",
+"assets/assets/programa-2026.json": "55f22468e7ab18c304c643e096a1aa0b",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
-"assets/fonts/MaterialIcons-Regular.otf": "b1b0c3e01443f0053add45c4e7ea3856",
+"assets/fonts/MaterialIcons-Regular.otf": "62db8423b168364282e64d22d5bc2fcf",
 "assets/NOTICES": "5c7dcf50a7f5b79187dcff2b28594b78",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "33b7d9392238c04c131b6ce224e13711",
 "assets/packages/flutter_map/lib/assets/flutter_map_logo.png": "208d63cc917af9713fc9572bd5c09362",
@@ -34,12 +35,12 @@ const RESOURCES = {"assets/AssetManifest.bin": "2041f37ba94e2510ca376bec5977095a
 "canvaskit/skwasm_heavy.wasm": "b0be7910760d205ea4e011458df6ee01",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "flutter.js": "24bc71911b75b5f8135c949e27a2984e",
-"flutter_bootstrap.js": "3c1a8ad12f9e5e663428e6203bc0c0f6",
+"flutter_bootstrap.js": "cf007011d493c25051bbee7c260859af",
 "icons/Icon-192.png": "eae62ff026607b8d43f3b658c2bce650",
 "icons/Icon-512.png": "eae62ff026607b8d43f3b658c2bce650",
 "index.html": "4162ed08743223b44fbc18a511e998ab",
 "/": "4162ed08743223b44fbc18a511e998ab",
-"main.dart.js": "9aeea412d960bbfbd67dab1b2235b0ee",
+"main.dart.js": "43416a3533969218a5419c6b5afed373",
 "manifest.json": "c5718163eeb1c6940ea1d6dd216a3fcc",
 "version.json": "ad70da3efafc5f7001d9048d0a1d3ae1"};
 // The application shell files that are downloaded before a service worker can

@@ -7,7 +7,7 @@
     "fecha_fin": "2026-08-26",
     "fuente": "Programa oficial San Luis 2026 (OCR del libro de fiestas, págs. 84-89)",
     "version_datos": "1.0-ocr",
-    "nota": "Volcado por OCR del programa 2026. CONVIENE REVISAR horas y nombres propios (peñas, grupos, ganaderías) contra el libro, y confirmar los enlaces de compra de entradas. Coordenadas de lugares reutilizadas de 2025."
+    "nota": "Programa San Luis 2026 (revisado contra el libro). Descripciones unificadas; coordenadas de lugares fijadas."
   },
   "categorias": [
     {
@@ -89,11 +89,18 @@
       "lng": -4.007004
     },
     {
-      "id": "plaza-matadero",
-      "nombre": "Plaza del Matadero",
-      "tipo": "plaza",
-      "lat": 40.902718,
-      "lng": -4.005693
+      "id": "calle-embajadores",
+      "nombre": "Calle Embajadores",
+      "tipo": "calle",
+      "lat": 40.900434,
+      "lng": -4.006387
+    },
+    {
+      "id": "campo-polo",
+      "nombre": "Campo de Polo",
+      "tipo": "recinto",
+      "lat": 40.899583,
+      "lng": -4.014126
     },
     {
       "id": "plaza-toros",
@@ -139,10 +146,10 @@
     },
     {
       "id": "parroquia",
-      "nombre": "Parroquia",
+      "nombre": "Capilla de la Orden Franciscana Seglar",
       "tipo": "religioso",
-      "lat": 40.895975,
-      "lng": -4.008787
+      "lat": 40.900861,
+      "lng": -4.005489
     },
     {
       "id": "club-tiro",
@@ -155,15 +162,15 @@
       "id": "centro-san-luis",
       "nombre": "Centro San Luis",
       "tipo": "recinto",
-      "lat": 40.904484,
-      "lng": -4.007495
+      "lat": 40.902565,
+      "lng": -4.005568
     },
     {
       "id": "puerta-reina",
       "nombre": "Puerta de la Reina",
       "tipo": "calle",
-      "lat": 40.902327,
-      "lng": -4.005726
+      "lat": 40.901933,
+      "lng": -4.007507
     }
   ],
   "anuncios": [
@@ -236,8 +243,7 @@
       "meteo_dependiente": false,
       "destacado": false,
       "estado": "programado",
-      "estado_nota": null,
-      "desc": "Tras el eclipse, en la Plaza de los Dolores."
+      "estado_nota": null
     },
     {
       "id": "2026-08-13-01",
@@ -247,7 +253,7 @@
       "titulo": "Paseo Astronómico con Rubén Cantalejo",
       "descripcion": "Con el OPIA. Salida desde el Real Campo de Polo.",
       "categoria": "tradicion",
-      "lugar_id": null,
+      "lugar_id": "campo-polo",
       "lugar_nota": "Real Campo de Polo",
       "penas": [],
       "entrada": false,
@@ -342,7 +348,7 @@
       "titulo": "Primera edición Embajadores Rockfest",
       "descripcion": "Solid Rock, tributo a Dire Straits, Zerro y Cuatro en 4.",
       "categoria": "musica",
-      "lugar_id": null,
+      "lugar_id": "calle-embajadores",
       "lugar_nota": "Calle Embajadores",
       "penas": [],
       "entrada": false,
@@ -492,7 +498,7 @@
       "hora": "17:30",
       "hora_aprox": false,
       "titulo": "Pre-Pregón con DJ Garlim y Concurso de Disfraces",
-      "descripcion": "Premios individual, grupos de 2-5 y grupos grandes. Plaza de la Cebada.",
+      "descripcion": "Con DJ Garlim (Asociación La Granja en Fiestas). Concurso de disfraces con premios: individual, grupo de 2 a 5 y grupos de más de 6 personas. Plaza de la Cebada.",
       "categoria": "tradicion",
       "lugar_id": "plaza-cebada",
       "lugar_nota": null,
@@ -503,8 +509,7 @@
       "meteo_dependiente": false,
       "destacado": false,
       "estado": "programado",
-      "estado_nota": null,
-      "desc": "Con DJ Garlim (Asociación La Granja en Fiestas). Concurso de disfraces con premios: individual, grupo de 2 a 5 y grupos de más de 6 personas. Plaza de la Cebada."
+      "estado_nota": null
     },
     {
       "id": "2026-08-21-04",
@@ -569,7 +574,7 @@
       "hora": "22:00",
       "hora_aprox": false,
       "titulo": "Festival de Tributos: 'Las Divas del Pop'",
-      "descripcion": "Apertura de puertas en el Patio central de la RFC.",
+      "descripcion": "Con los grupos Maquillaje, Kamikaze y La Oreja Band. Apertura de puertas a las 21:00 en el Patio central de la RFC.",
       "categoria": "musica",
       "lugar_id": "patio-rfc",
       "lugar_nota": null,
@@ -580,8 +585,7 @@
       "meteo_dependiente": false,
       "destacado": true,
       "estado": "programado",
-      "estado_nota": null,
-      "desc": "Con los grupos Maquillaje, Kamikaze y La Oreja Band. Apertura de puertas a las 21:00 en el Patio central de la RFC."
+      "estado_nota": null
     },
     {
       "id": "2026-08-22-08",
@@ -760,7 +764,7 @@
       "hora": "18:30",
       "hora_aprox": false,
       "titulo": "Novillada picada 'VI Judión de Oro' (1ª)",
-      "descripcion": "Novillos de Baltasar Ibán para Rafael de la Cueva y López Ortega.",
+      "descripcion": "Novillos de Baltasar Ibán (El Escorial) para Rafael de la Cueva y López Ortega, y un añojo para Luis Izaguirre.",
       "categoria": "taurino",
       "lugar_id": "plaza-toros",
       "lugar_nota": null,
@@ -771,8 +775,7 @@
       "meteo_dependiente": false,
       "destacado": true,
       "estado": "programado",
-      "estado_nota": null,
-      "desc": "Novillos de Baltasar Ibán (El Escorial) para Rafael de la Cueva y López Ortega, y un añojo para Luis Izaguirre."
+      "estado_nota": null
     },
     {
       "id": "2026-08-22-06",
@@ -1275,7 +1278,7 @@
       "hora": "17:30",
       "hora_aprox": false,
       "titulo": "Espectáculo de Magia con el Mago Alfonso V",
-      "descripcion": "En la Pradera de 'El Hospital'. Al acabar, juegos infantiles.",
+      "descripcion": "Organizado por La Granja en Fiestas. Al acabar, juegos infantiles. Pradera de 'El Hospital'.",
       "categoria": "infantil",
       "lugar_id": "pradera-hospital",
       "lugar_nota": null,
@@ -1286,8 +1289,7 @@
       "meteo_dependiente": false,
       "destacado": false,
       "estado": "programado",
-      "estado_nota": null,
-      "desc": "Organizado por La Granja en Fiestas. Al acabar, juegos infantiles. Pradera de 'El Hospital'."
+      "estado_nota": null
     },
     {
       "id": "2026-08-24-01g",
@@ -1314,7 +1316,7 @@
       "hora": "19:00",
       "hora_aprox": false,
       "titulo": "Juegos Taurinos para Peñas",
-      "descripcion": "En la Plaza de Toros. Animaos a participar.",
+      "descripcion": "Organizado por la Asociación Cultural Taurina de La Granja. En la Plaza de Toros. Animaos a participar.",
       "categoria": "taurino",
       "lugar_id": "plaza-toros",
       "lugar_nota": null,
@@ -1325,8 +1327,7 @@
       "meteo_dependiente": false,
       "destacado": false,
       "estado": "programado",
-      "estado_nota": null,
-      "desc": "Organizado por la Asociación Cultural Taurina de La Granja. En la Plaza de Toros. Animaos a participar."
+      "estado_nota": null
     },
     {
       "id": "2026-08-24-03",

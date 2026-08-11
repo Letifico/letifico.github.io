@@ -3,8 +3,11 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "0819fd52bb9cde74710fe0cd4cd8e767",
-"assets/AssetManifest.bin.json": "6e0987f91730386dff7a9c64fe857842",
+const RESOURCES = {"assets/AssetManifest.bin": "da897c3f44d05a94916d13d1e0579560",
+"assets/AssetManifest.bin.json": "fd74556cab95fb0d735ee2095aceaf7f",
+"assets/assets/cartel-noches-magicas-2026.jpg": "81e28355f723e488f2acbcce5c8cbf76",
+"assets/assets/cartel-san-luis-2026.jpg": "c7647c56fc28ddc7e35ca071be66e898",
+"assets/assets/fondo-inicio.jpg": "e80b85c53b9c349501943a9451df8c92",
 "assets/assets/noches-magicas-2026.json": "46812d8b2c5585b8c4b718ccccd4684f",
 "assets/assets/programa-2025.json": "19c08ca74dcdbc6d5be6d5d98fb8b7ab",
 "assets/assets/programa-2026.json": "0ebae85ec020aa66190b41b295225ac1",
@@ -28,14 +31,13 @@ const RESOURCES = {"assets/AssetManifest.bin": "0819fd52bb9cde74710fe0cd4cd8e767
 "canvaskit/skwasm_heavy.js.symbols": "0755b4fb399918388d71b59ad390b055",
 "canvaskit/skwasm_heavy.wasm": "b0be7910760d205ea4e011458df6ee01",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
-"firebase-messaging-sw.js": "d26ef4704648a8f32e58aa828dc02e40",
 "flutter.js": "24bc71911b75b5f8135c949e27a2984e",
-"flutter_bootstrap.js": "8f24ba5ab9340ddad7b4ff1c17cd02d8",
+"flutter_bootstrap.js": "e5cdb0f1b81712e522f984c425d6361f",
 "icons/Icon-192.png": "eae62ff026607b8d43f3b658c2bce650",
 "icons/Icon-512.png": "eae62ff026607b8d43f3b658c2bce650",
 "index.html": "4162ed08743223b44fbc18a511e998ab",
 "/": "4162ed08743223b44fbc18a511e998ab",
-"main.dart.js": "fe8f8b9a327883e0daaa856f6011c726",
+"main.dart.js": "e5116a038db9b9ebf9e98ce0db1ed7ba",
 "manifest.json": "c5718163eeb1c6940ea1d6dd216a3fcc",
 "version.json": "ad70da3efafc5f7001d9048d0a1d3ae1"};
 // The application shell files that are downloaded before a service worker can

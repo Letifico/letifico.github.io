@@ -1,7 +1,7 @@
 {
   "meta": {
     "titulo": "Información",
-    "nota": "Datos de utilidad de La Granja de San Ildefonso. Teléfonos según el programa de fiestas. Completa los horarios de autobús marcados con [COMPLETAR]."
+    "nota": "Datos de utilidad de La Granja de San Ildefonso. Teléfonos según el programa de fiestas."
   },
   "secciones": [
     {
@@ -64,22 +64,39 @@
       "id": "autobuses",
       "titulo": "Autobuses (fiestas)",
       "icono": "bus",
-      "items": [
+      "tipo": "buses",
+      "info": "Ruta M8 · LINEcar · Especial Fiestas San Luis 2026. Días 21-22, 22-23, 24-25 y 26-27 de agosto. Salida desde la Plaza de Toros de Segovia. Billete 3,50 € (pago en metálico). Horarios de paso aproximados.",
+      "telefono_info": "921 44 26 92",
+      "plegables": [
         {
-          "nombre": "Ruta M8 · Especial Fiestas de San Luis 2026",
-          "texto": "Segovia – La Granja – Valsaín – Segovia (LINEcar).\nDías: 21-22, 22-23, 24-25 y 26-27 de agosto.\nSalida desde la Plaza de Toros de Segovia.\nBillete: 3,50 € (pago en metálico). Horarios de paso aproximados."
+          "titulo": "Hacia Valsaín (ida)",
+          "parada": "Paso por La Granja (Ptas. Segovia)",
+          "horas": [
+            "23:25",
+            "23:55",
+            "0:55",
+            "1:55",
+            "3:55",
+            "5:55",
+            "6:55",
+            "7:55"
+          ],
+          "recorrido": "Segovia · Carrascalejo · Peñas del Erizo · Parque Robledo · La Granja · Valsaín"
         },
         {
-          "nombre": "Ida · Segovia → La Granja → Valsaín",
-          "texto": "Orden de paradas: Segovia · Carrascalejo · Peñas del Erizo · Parque Robledo · Granja (Ptas. Segovia) · Valsaín (Frontón).\n\n23:00 · 23:10 · 23:12 · 23:16 · 23:25 · 23:30\n23:30 · — · 23:42 · 23:46 · 23:55 · —\n0:30 · — · 0:42 · 0:46 · 0:55 · —\n1:30 · 1:40 · 1:42 · 1:46 · 1:55 · 2:00\n3:30 · — · 3:42 · 3:46 · 3:55 · 4:00\n5:30 · 5:40 · 5:42 · 5:46 · 5:55 · 6:00\n6:30 · — · 6:42 · 6:46 · 6:55 · 7:00\n7:30 · 7:40 · 7:42 · 7:46 · 7:55 · —"
-        },
-        {
-          "nombre": "Vuelta · Valsaín → La Granja → Segovia",
-          "texto": "Orden de paradas: Valsaín (Frontón) · Granja (Ptas. Segovia) · Parque Robledo · Peñas del Erizo · Carrascalejo · Segovia.\n\n23:30 · 23:35 · 23:43 · 23:47 · — · 0:00\n— · 0:00 · 0:09 · 0:13 · — · 0:25\n— · 1:00 · 1:09 · 1:13 · — · 1:25\n2:00 · 2:05 · 2:14 · 2:19 · — · 2:30\n4:00 · 4:05 · 4:14 · 4:19 · — · 4:30\n6:05 · 6:10 · 6:19 · 6:23 · 6:25 · 6:30\n— · 7:00 · 7:09 · 7:13 · — · 7:25\n— · 8:00 · 8:09 · 8:13 · 8:15 · 8:25"
-        },
-        {
-          "nombre": "Información LINEcar",
-          "telefono": "921 44 26 92"
+          "titulo": "Hacia Segovia (vuelta)",
+          "parada": "Paso por La Granja (Ptas. Segovia)",
+          "horas": [
+            "23:35",
+            "0:00",
+            "1:00",
+            "2:05",
+            "4:05",
+            "6:10",
+            "7:00",
+            "8:00"
+          ],
+          "recorrido": "Valsaín · La Granja · Parque Robledo · Peñas del Erizo · Carrascalejo · Segovia"
         }
       ]
     }

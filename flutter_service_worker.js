@@ -13,7 +13,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "3cb01fa24be964c80e0edea82fb62267
 "assets/assets/info-pueblo.json": "d76a5d01a2cd060ff32012250ff7b710",
 "assets/assets/noches-magicas-2026.json": "46812d8b2c5585b8c4b718ccccd4684f",
 "assets/assets/programa-2025.json": "19c08ca74dcdbc6d5be6d5d98fb8b7ab",
-"assets/assets/programa-2026.json": "e838d4acc7324c2f9a251b7397fabe1f",
+"assets/assets/programa-2026.json": "b77f3f422fb99ddabba7bb01b065e03b",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/fonts/MaterialIcons-Regular.otf": "f21a1b9e7d94363f4aef120ee1f21650",
 "assets/NOTICES": "5c7dcf50a7f5b79187dcff2b28594b78",
@@ -35,14 +35,14 @@ const RESOURCES = {"assets/AssetManifest.bin": "3cb01fa24be964c80e0edea82fb62267
 "canvaskit/skwasm_heavy.wasm": "b0be7910760d205ea4e011458df6ee01",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "flutter.js": "24bc71911b75b5f8135c949e27a2984e",
-"flutter_bootstrap.js": "b955848fb0f01f5024397c5843ffd330",
+"flutter_bootstrap.js": "98905a87d47c8ca4389ee5a3ede1b6de",
 "icons/Icon-192.png": "eae62ff026607b8d43f3b658c2bce650",
 "icons/Icon-512.png": "eae62ff026607b8d43f3b658c2bce650",
 "index.html": "4162ed08743223b44fbc18a511e998ab",
 "/": "4162ed08743223b44fbc18a511e998ab",
-"main.dart.js": "48e832b872f7fbdb6d7ddb7a62071b97",
+"main.dart.js": "134864b60507388aa69a3a803b52a992",
 "manifest.json": "c5718163eeb1c6940ea1d6dd216a3fcc",
-"version.json": "ad70da3efafc5f7001d9048d0a1d3ae1"};
+"version.json": "cdb4b6c56b55049b303241a6efbce39d"};
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = ["main.dart.js",

@@ -1630,8 +1630,8 @@
       "entrada_url": null,
       "meteo_dependiente": false,
       "destacado": true,
-      "estado": "programado",
-      "estado_nota": null
+      "estado": "cancelado",
+      "estado_nota": "Cancelado por Patrimonio Nacional debido a la escasez de agua"
     },
     {
       "id": "2026-08-25-07",

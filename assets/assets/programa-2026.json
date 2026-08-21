@@ -213,10 +213,10 @@
       "hora": "19:00",
       "hora_aprox": false,
       "titulo": "Quedada para ver el Eclipse Solar",
-      "descripcion": "Con el OPIA, en el Real Campo de Polo.",
+      "descripcion": "Con el OPIA, en el Real Campo.",
       "categoria": "tradicion",
       "lugar_id": null,
-      "lugar_nota": "Real Campo de Polo",
+      "lugar_nota": "Real Campo",
       "penas": [],
       "entrada": false,
       "entrada_info": null,
@@ -1631,7 +1631,7 @@
       "meteo_dependiente": false,
       "destacado": true,
       "estado": "cancelado",
-      "estado_nota": "Cancelado por Patrimonio Nacional debido a la escasez de agua"
+      "estado_nota": "Cancelado por Patrimonio Nacional debido a la escasez de agua."
     },
     {
       "id": "2026-08-25-07",
@@ -1891,6 +1891,48 @@
       "lugar_id": "centro-san-luis",
       "lugar_nota": null,
       "penas": [],
+      "entrada": false,
+      "entrada_info": null,
+      "entrada_url": null,
+      "meteo_dependiente": false,
+      "destacado": false,
+      "estado": "programado",
+      "estado_nota": null
+    },
+    {
+      "id": "2026-08-21-12",
+      "fecha": "2026-08-21",
+      "hora": "00:00",
+      "hora_aprox": true,
+      "titulo": "Sesión Remember con DJ Mafia — Peña Los Zeltas",
+      "descripcion": "Al terminar el desfile: sesión remember con música que marcó épocas y pirotecnia incluida. En la Peña Los Zeltas.",
+      "categoria": "verbena",
+      "lugar_id": null,
+      "lugar_nota": "Peña Los Zeltas",
+      "penas": [
+        "Los Zeltas"
+      ],
+      "entrada": false,
+      "entrada_info": null,
+      "entrada_url": null,
+      "meteo_dependiente": false,
+      "destacado": false,
+      "estado": "programado",
+      "estado_nota": null
+    },
+    {
+      "id": "2026-08-22-13",
+      "fecha": "2026-08-22",
+      "hora": "18:00",
+      "hora_aprox": false,
+      "titulo": "Fiesta Homenaje a Ojete Calor — La Caravana de los Decibelios",
+      "descripcion": "Fiesta con DJs (remember, electroclash, makina y hits ojeteros) y mucho cachondeo. Dress code: cutre brillante y sin vergüenza. En la Peña Los Decibelios.",
+      "categoria": "musica",
+      "lugar_id": null,
+      "lugar_nota": "Peña Los Decibelios",
+      "penas": [
+        "Los Decibelios"
+      ],
       "entrada": false,
       "entrada_info": null,
       "entrada_url": null,

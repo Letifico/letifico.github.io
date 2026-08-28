@@ -98548,7 +98548,7 @@ this.av()},
 Lz(){this.a2(new A.aB2())},
 H(a){var s=null,r=A.xg($.ay?B.aG:B.az,s,!0),q=$.aGd(),p=$.ay?B.i4:B.i3,o=A.aZI(r.ok),n=$.ay,m=n?B.ak:B.al
 o=o.auz(m,n?B.ak:B.al)
-return new A.CD(q,B.L8,"San Luis \xb7 Programa",r.awP(r.ax.awm(B.U),p,A.aOo(s,s,s,B.U,B.cI,s,A.aB().$1$color(B.h),s,s,s,s,s,s,s),o),!1,s)}}
+return new A.CD(q,B.L8,"Fiestas del Real Sitio",r.awP(r.ax.awm(B.U),p,A.aOo(s,s,s,B.U,B.cI,s,A.aB().$1$color(B.h),s,s,s,s,s,s,s),o),!1,s)}}
 A.aB2.prototype={
 $0(){$.a0.toString
 $.ay=$.aO().c.d===B.aG},

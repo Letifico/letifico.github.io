@@ -537,7 +537,8 @@
       "meteo_dependiente": false,
       "destacado": false,
       "estado": "programado",
-      "estado_nota": null
+      "estado_nota": null,
+      "cartel": "assets/cartel-sueltatoro-2026.jpeg"
     },
     {
       "id": "2026-09-04-02",
@@ -556,7 +557,8 @@
       "meteo_dependiente": false,
       "destacado": false,
       "estado": "programado",
-      "estado_nota": null
+      "estado_nota": null,
+      "cartel": "assets/cartel-piedra-2026.jpeg"
     },
     {
       "id": "2026-09-04-03",
@@ -583,7 +585,7 @@
       "hora": "18:00",
       "hora_aprox": false,
       "titulo": "Santa Misa y Procesión en honor a Ntra. Sra. del Rosario",
-      "descripcion": "Canto y rezo a la Virgen y vuelta con Ntra. Sra. del Rosario a la Iglesia. Antes, Desfile de Carrozas y Peñas hasta la Plaza de Valsaín.",
+      "descripcion": "Canto y rezo a la Virgen y vuelta con Ntra. Sra. del Rosario a la Iglesia. A continuacion, Desfile de Carrozas y Peñas hasta la Plaza de Valsaín.",
       "categoria": "religioso",
       "lugar_id": "iglesia",
       "lugar_nota": "Plaza de Valsaín / Iglesia",
@@ -596,8 +598,29 @@
       "estado": "programado",
       "estado_nota": null
     },
-    {
+        {
       "id": "2026-09-04-05",
+      "fecha": "2026-09-04",
+      "hora": "18:45",
+      "hora_aprox": false,
+      "titulo": "Gran concurso de Carrozas",
+      "descripcion": "Desfile de Carrozas y Peñas hasta la Plaza de Valsaín.",
+      "categoria": "inauguracion",
+      "lugar_id": "plaza-valsain",
+      "lugar_nota": "Calles de Valsaín / Iglesia",
+      "penas": [],
+      "entrada": false,
+      "entrada_info": null,
+      "entrada_url": null,
+      "meteo_dependiente": false,
+      "destacado": false,
+      "estado": "programado",
+      "estado_nota": null,
+      "cartel": "assets/cartel-carrozas-2026.jpeg"
+      
+    },
+    {
+      "id": "2026-09-04-06",
       "fecha": "2026-09-04",
       "hora": "21:00",
       "hora_aprox": false,
@@ -765,7 +788,8 @@
       "meteo_dependiente": false,
       "destacado": false,
       "estado": "programado",
-      "estado_nota": null
+      "estado_nota": null,
+      "cartel": "assets/cartel-sierramano-2026.jpeg"
     },
     {
       "id": "2026-09-05-09",
@@ -898,7 +922,8 @@
       "meteo_dependiente": false,
       "destacado": false,
       "estado": "programado",
-      "estado_nota": null
+      "estado_nota": null,
+      "cartel": "assets/cartel-nuevadanza-2026.jpeg"
     },
     {
       "id": "2026-09-07-01",
@@ -936,7 +961,8 @@
       "meteo_dependiente": false,
       "destacado": true,
       "estado": "programado",
-      "estado_nota": null
+      "estado_nota": null,
+      "cartel": "assets/cartel-disfraces-2026.jpeg"
     },
     {
       "id": "2026-09-07-03",
@@ -993,7 +1019,8 @@
       "meteo_dependiente": false,
       "destacado": false,
       "estado": "programado",
-      "estado_nota": null
+      "estado_nota": null,
+      "cartel": "assets/cartel-maraton-infantil-2026.jpeg"
     },
     {
       "id": "2026-09-07-06",
@@ -1012,7 +1039,8 @@
       "meteo_dependiente": false,
       "destacado": false,
       "estado": "programado",
-      "estado_nota": null
+      "estado_nota": null,
+      "cartel": "assets/cartel-minibueyes-2026.jpeg"
     },
     {
       "id": "2026-09-07-07",
@@ -1031,7 +1059,9 @@
       "meteo_dependiente": false,
       "destacado": false,
       "estado": "programado",
-      "estado_nota": null
+      "estado_nota": null,
+      "cartel": "assets/cartel-tortilla-2026.jpeg"
+      
     },
     {
       "id": "2026-09-07-08",

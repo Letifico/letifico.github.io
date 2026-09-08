@@ -1289,7 +1289,8 @@
       "meteo_dependiente": false,
       "destacado": false,
       "estado": "programado",
-      "estado_nota": null
+      "estado_nota": null,
+      "cartel": "assets/cartel-volteo-2026.jpeg"
     },
     {
       "id": "2026-09-08-10",
@@ -1308,7 +1309,9 @@
       "meteo_dependiente": false,
       "destacado": false,
       "estado": "programado",
-      "estado_nota": null
+      "estado_nota": null,
+      "cartel": "assets/cartel-cantobobo-2026.jpeg"
+      
     }
   ]
 }

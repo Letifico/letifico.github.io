@@ -59,26 +59,7 @@
           "telefono": "921 44 34 40"
         }
       ]
-    },
-    {
-      "id": "autobuses",
-      "titulo": "Autobuses (fiestas)",
-      "icono": "bus",
-      "tipo": "buses",
-      "info": "Ruta M8 · LINEcar · Especial Fiestas Valsain 2026. Dia 6 de septiembre. Salida desde el Fronton. Billete 3,50 € (pago en metálico). Horarios de paso aproximados.",
-      "telefono_info": "921 44 26 92",
-      "plegables": [
-        {
-          "titulo": "Hacia Segovia (vuelta)",
-          "parada": "Salida Valsain (Fronton)",
-          "horas": [
-            "5:30",
-            "6:30",
-            "8:30" 
-          ],
-          "recorrido": "Valsaín · La Granja · Parque Robledo · Peñas del Erizo · Carrascalejo · Segovia"
-        }
-      ]
     }
+   
   ]
 }

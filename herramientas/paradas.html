@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Paradas de autobús · Real Sitio</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<style>
+  :root { --azul:#17284A; --azul2:#25406E; --oro:#E3B23C; --ascua:#C4442E; --ida:#2E7DD1; --vuelta:#D9822B; --papel:#EEF1F6; }
+  * { box-sizing:border-box; }
+  html,body { margin:0; height:100%; font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif; background:var(--papel); color:#1D2433; }
+  #app { display:flex; height:100%; }
+  #mapa { flex:1; min-height:50vh; }
+  #panel { width:380px; max-width:100%; display:flex; flex-direction:column; background:#fff; border-left:1px solid #E3E7EE; }
+  header { background:linear-gradient(135deg,var(--azul),var(--azul2)); color:#fff; padding:14px 16px; }
+  header h1 { margin:0; font-size:18px; color:var(--oro); font-style:italic; }
+  header p { margin:4px 0 0; font-size:12px; opacity:.85; }
+  .fila { display:flex; gap:8px; align-items:center; }
+  .bloque { padding:10px 16px; border-bottom:1px solid #EEF1F6; }
+  label { font-size:11px; font-weight:700; letter-spacing:.06em; color:#6B7280; text-transform:uppercase; }
+  input[type=text] { width:100%; padding:8px 10px; border:1px solid #DADFE7; border-radius:8px; font-size:14px; }
+  .tabs { display:flex; gap:6px; }
+  .tab { flex:1; padding:9px; border-radius:10px; border:2px solid transparent; font-weight:700; font-size:13px; cursor:pointer; background:#F0F4FA; color:#1D2433; }
+  .tab.ida.act { border-color:var(--ida); background:#E6F0FB; }
+  .tab.vuelta.act { border-color:var(--vuelta); background:#FBF0E4; }
+  .tab small { display:block; font-weight:500; font-size:11px; color:#6B7280; }
+  button.b { padding:9px 12px; border:0; border-radius:10px; font-weight:700; font-size:13px; cursor:pointer; background:var(--azul); color:#fff; }
+  button.b.oro { background:var(--oro); color:var(--azul); }
+  button.b.gris { background:#F0F4FA; color:#1D2433; }
+  button.b.rojo { background:#FBECE9; color:var(--ascua); }
+  #lista { flex:1; overflow:auto; padding:8px 12px 16px; }
+  .parada { display:flex; gap:8px; align-items:flex-start; padding:8px; border:1px solid #E3E7EE; border-radius:12px; margin-bottom:8px; }
+  .parada.sel { border-color:var(--oro); box-shadow:0 0 0 2px rgba(227,178,60,.35); }
+  .num { width:26px; height:26px; border-radius:50%; color:#fff; font-weight:800; font-size:12px; display:flex; align-items:center; justify-content:center; flex:none; margin-top:4px; }
+  .parada .cuerpo { flex:1; display:flex; flex-direction:column; gap:4px; }
+  .parada input { padding:6px 8px; font-size:13px; }
+  .coords { font-size:11px; color:#6B7280; font-family:ui-monospace,monospace; }
+  .acc { display:flex; flex-direction:column; gap:3px; }
+  .acc button { border:0; background:#F0F4FA; border-radius:6px; width:28px; height:24px; cursor:pointer; font-size:13px; }
+  .acc button.del { background:#FBECE9; color:var(--ascua); }
+  .vacio { color:#6B7280; font-size:13px; text-align:center; padding:24px 8px; line-height:1.4; }
+  .aviso { font-size:12px; color:#6B7280; line-height:1.35; }
+  #toast { position:fixed; left:50%; bottom:20px; transform:translateX(-50%); background:var(--azul); color:#fff; padding:10px 16px; border-radius:10px; font-size:13px; opacity:0; transition:opacity .25s; pointer-events:none; z-index:9999; }
+  #toast.on { opacity:1; }
+  textarea { width:100%; height:120px; font-family:ui-monospace,monospace; font-size:11px; border:1px solid #DADFE7; border-radius:8px; padding:8px; }
+  .pin { width:26px; height:26px; border-radius:50%; border:2px solid #fff; box-shadow:0 1px 4px rgba(0,0,0,.4); color:#fff; font:800 12px system-ui; display:flex; align-items:center; justify-content:center; }
+  .pin.sel { outline:3px solid var(--oro); }
+  @media (max-width: 760px) {
+    #app { flex-direction:column; }
+    #mapa { flex:none; height:52vh; }
+    #panel { width:100%; flex:1; border-left:0; border-top:1px solid #E3E7EE; min-height:0; }
+  }
+</style>
+</head>
+<body>
+<div id="app">
+  <div id="mapa"></div>
+  <div id="panel">
+    <header>
+      <h1>Paradas de autobús</h1>
+      <p>Toca el mapa para añadir una parada al sentido activo. Arrastra el pin para afinar.</p>
+    </header>
+    <div class="bloque">
+      <label>Línea</label>
+      <input type="text" id="linea" placeholder="Ej. Segovia – La Granja – Valsaín">
+    </div>
+    <div class="bloque">
+      <div class="tabs">
+        <button class="tab ida act" data-s="ida">IDA<small id="nIda">0 paradas</small></button>
+        <button class="tab vuelta" data-s="vuelta">VUELTA<small id="nVuelta">0 paradas</small></button>
+      </div>
+      <div class="fila" style="margin-top:8px">
+        <input type="text" id="nombreSentido" placeholder="Nombre del sentido (ej. Segovia → La Granja)">
+      </div>
+      <div class="fila" style="margin-top:8px; flex-wrap:wrap">
+        <button class="b oro" id="btnGps">📍 Aquí (mi ubicación)</button>
+        <button class="b gris" id="btnCapa">🛰️ Satélite</button>
+        <button class="b gris" id="btnCopiarIda" title="Copia las paradas de IDA en VUELTA en orden inverso">⇄ Vuelta = ida al revés</button>
+      </div>
+    </div>
+    <div id="lista"></div>
+    <div class="bloque">
+      <div class="fila" style="flex-wrap:wrap">
+        <button class="b" id="btnDescargar">⬇ Descargar paradas.json</button>
+        <button class="b gris" id="btnCopiar">Copiar JSON</button>
+        <button class="b gris" id="btnImportar">Importar…</button>
+        <button class="b rojo" id="btnBorrar">Vaciar</button>
+      </div>
+      <p class="aviso" style="margin:8px 0 0">Se guarda solo en este navegador mientras trabajas. Cuando acabes, descarga el <b>paradas.json</b> y pásamelo.</p>
+      <div id="zonaImport" style="display:none; margin-top:8px">
+        <textarea id="txtImport" placeholder="Pega aquí un paradas.json para seguir editándolo"></textarea>
+        <div class="fila" style="margin-top:6px"><button class="b" id="btnCargar">Cargar</button><input type="file" id="fichero" accept=".json,application/json"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="toast"></div>
+<script>
+(function () {
+  var CLAVE = 'paradas_bus_real_sitio_v1';
+  var estado = { linea: '', sentidos: { ida: { nombre: '', paradas: [] }, vuelta: { nombre: '', paradas: [] } } };
+  var activo = 'ida';
+  var selId = null;
+
+  function guardar() { try { localStorage.setItem(CLAVE, JSON.stringify(estado)); } catch (e) {} }
+  function cargarLocal() {
+    try { var r = localStorage.getItem(CLAVE); if (r) { var j = JSON.parse(r); if (j && j.sentidos) estado = j; } } catch (e) {}
+  }
+  function toast(t) { var el = document.getElementById('toast'); el.textContent = t; el.classList.add('on'); setTimeout(function () { el.classList.remove('on'); }, 2200); }
+  function uid() { return 'p' + Date.now().toString(36) + Math.random().toString(36).slice(2, 6); }
+  function r6(x) { return Math.round(x * 1e6) / 1e6; }
+  function color(s) { return s === 'ida' ? '#2E7DD1' : '#D9822B'; }
+
+  // ---- Mapa ----
+  var mapa = L.map('mapa', { zoomControl: true }).setView([40.8985, -4.0030], 15);
+  var calles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19, attribution: '© OpenStreetMap' }).addTo(mapa);
+  var sat = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', { maxZoom: 19, attribution: '© Esri' });
+  var enSat = false;
+  document.getElementById('btnCapa').onclick = function () {
+    enSat = !enSat;
+    if (enSat) { mapa.removeLayer(calles); sat.addTo(mapa); this.textContent = '🗺️ Calles'; }
+    else { mapa.removeLayer(sat); calles.addTo(mapa); this.textContent = '🛰️ Satélite'; }
+  };
+  var capa = L.layerGroup().addTo(mapa);
+
+  function icono(n, s, sel) {
+    return L.divIcon({ className: '', iconSize: [26, 26], iconAnchor: [13, 13],
+      html: '<div class="pin' + (sel ? ' sel' : '') + '" style="background:' + color(s) + '">' + n + '</div>' });
+  }
+
+  function pintarMapa() {
+    capa.clearLayers();
+    ['ida', 'vuelta'].forEach(function (s) {
+      var ps = estado.sentidos[s].paradas;
+      var op = s === activo ? 1 : 0.35;
+      if (ps.length > 1) L.polyline(ps.map(function (p) { return [p.lat, p.lng]; }), { color: color(s), weight: 3, opacity: op * 0.8, dashArray: s === 'vuelta' ? '6 6' : null }).addTo(capa);
+      ps.forEach(function (p, i) {
+        var m = L.marker([p.lat, p.lng], { icon: icono(i + 1, s, p.id === selId), draggable: s === activo, opacity: op });
+        m.on('dragend', function (e) { var ll = e.target.getLatLng(); p.lat = r6(ll.lat); p.lng = r6(ll.lng); guardar(); pintarLista(); });
+        m.on('click', function () { if (s !== activo) cambiarSentido(s); selId = p.id; pintar(); var el = document.getElementById('in-' + p.id); if (el) { el.scrollIntoView({ block: 'center' }); el.focus(); } });
+        m.bindTooltip(p.nombre || ('Parada ' + (i + 1)));
+        m.addTo(capa);
+      });
+    });
+  }
+
+  function anadir(lat, lng) {
+    var ps = estado.sentidos[activo].paradas;
+    var p = { id: uid(), nombre: '', lat: r6(lat), lng: r6(lng), nota: '' };
+    ps.push(p); selId = p.id; guardar(); pintar();
+    setTimeout(function () { var el = document.getElementById('in-' + p.id); if (el) { el.scrollIntoView({ block: 'center' }); el.focus(); } }, 50);
+  }
+  mapa.on('click', function (e) { anadir(e.latlng.lat, e.latlng.lng); });
+
+  document.getElementById('btnGps').onclick = function () {
+    if (!navigator.geolocation) { toast('Este navegador no da la ubicación'); return; }
+    toast('Buscando tu ubicación…');
+    navigator.geolocation.getCurrentPosition(function (pos) {
+      mapa.setView([pos.coords.latitude, pos.coords.longitude], 18);
+      anadir(pos.coords.latitude, pos.coords.longitude);
+      toast('Parada añadida (precisión ±' + Math.round(pos.coords.accuracy) + ' m)');
+    }, function () { toast('No se pudo obtener la ubicación'); }, { enableHighAccuracy: true, timeout: 15000 });
+  };
+
+  // ---- Lista ----
+  function esc(t) { return String(t || '').replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;'); }
+  function pintarLista() {
+    var ps = estado.sentidos[activo].paradas;
+    var h = '';
+    if (!ps.length) h = '<div class="vacio">Aún no hay paradas en este sentido.<br>Toca el mapa donde está la primera parada, o pulsa <b>📍 Aquí</b> si estás en ella.</div>';
+    ps.forEach(function (p, i) {
+      h += '<div class="parada' + (p.id === selId ? ' sel' : '') + '">' +
+        '<div class="num" style="background:' + color(activo) + '">' + (i + 1) + '</div>' +
+        '<div class="cuerpo">' +
+          '<input type="text" id="in-' + p.id + '" data-id="' + p.id + '" data-k="nombre" placeholder="Nombre de la parada" value="' + esc(p.nombre) + '">' +
+          '<input type="text" data-id="' + p.id + '" data-k="nota" placeholder="Nota (opcional: marquesina, frente a…)" value="' + esc(p.nota) + '">' +
+          '<span class="coords">' + p.lat.toFixed(6) + ', ' + p.lng.toFixed(6) + '</span>' +
+        '</div>' +
+        '<div class="acc">' +
+          '<button data-a="sub" data-id="' + p.id + '" title="Subir">▲</button>' +
+          '<button data-a="baj" data-id="' + p.id + '" title="Bajar">▼</button>' +
+          '<button data-a="ver" data-id="' + p.id + '" title="Ver en el mapa">◎</button>' +
+          '<button class="del" data-a="del" data-id="' + p.id + '" title="Borrar">✕</button>' +
+        '</div></div>';
+    });
+    document.getElementById('lista').innerHTML = h;
+    document.getElementById('nIda').textContent = estado.sentidos.ida.paradas.length + ' paradas';
+    document.getElementById('nVuelta').textContent = estado.sentidos.vuelta.paradas.length + ' paradas';
+  }
+  document.getElementById('lista').addEventListener('input', function (e) {
+    var id = e.target.getAttribute('data-id'), k = e.target.getAttribute('data-k');
+    if (!id || !k) return;
+    var p = estado.sentidos[activo].paradas.find(function (x) { return x.id === id; });
+    if (p) { p[k] = e.target.value; guardar(); if (k === 'nombre') pintarMapa(); }
+  });
+  document.getElementById('lista').addEventListener('click', function (e) {
+    var a = e.target.getAttribute('data-a'), id = e.target.getAttribute('data-id');
+    if (!a) return;
+    var ps = estado.sentidos[activo].paradas;
+    var i = ps.findIndex(function (x) { return x.id === id; });
+    if (i < 0) return;
+    if (a === 'sub' && i > 0) { var t = ps[i - 1]; ps[i - 1] = ps[i]; ps[i] = t; }
+    if (a === 'baj' && i < ps.length - 1) { var u = ps[i + 1]; ps[i + 1] = ps[i]; ps[i] = u; }
+    if (a === 'del') { if (!confirm('¿Borrar la parada ' + (i + 1) + '?')) return; ps.splice(i, 1); }
+    if (a === 'ver') { selId = id; mapa.setView([ps[i].lat, ps[i].lng], 18); }
+    guardar(); pintar();
+  });
+
+  // ---- Sentidos ----
+  function cambiarSentido(s) {
+    activo = s;
+    document.querySelectorAll('.tab').forEach(function (t) { t.classList.toggle('act', t.getAttribute('data-s') === s); });
+    document.getElementById('nombreSentido').value = estado.sentidos[s].nombre || '';
+    pintar();
+  }
+  document.querySelectorAll('.tab').forEach(function (t) { t.onclick = function () { cambiarSentido(t.getAttribute('data-s')); }; });
+  document.getElementById('nombreSentido').oninput = function () { estado.sentidos[activo].nombre = this.value; guardar(); };
+  document.getElementById('linea').oninput = function () { estado.linea = this.value; guardar(); };
+  document.getElementById('btnCopiarIda').onclick = function () {
+    var ida = estado.sentidos.ida.paradas;
+    if (!ida.length) { toast('Primero marca las paradas de IDA'); return; }
+    if (estado.sentidos.vuelta.paradas.length && !confirm('Esto sustituye las paradas de VUELTA. ¿Seguir?')) return;
+    estado.sentidos.vuelta.paradas = ida.slice().reverse().map(function (p) { return { id: uid(), nombre: p.nombre, lat: p.lat, lng: p.lng, nota: p.nota }; });
+    guardar(); cambiarSentido('vuelta');
+    toast('Hecho. Mueve las que estén en la acera de enfrente.');
+  };
+
+  // ---- Exportar / importar ----
+  function exportar() {
+    function limpia(ps) { return ps.map(function (p, i) { var o = { orden: i + 1, nombre: p.nombre || ('Parada ' + (i + 1)), lat: p.lat, lng: p.lng }; if (p.nota) o.nota = p.nota; return o; }); }
+    return JSON.stringify({
+      linea: estado.linea || '',
+      generado: new Date().toISOString().slice(0, 10),
+      sentidos: {
+        ida: { nombre: estado.sentidos.ida.nombre || 'Ida', paradas: limpia(estado.sentidos.ida.paradas) },
+        vuelta: { nombre: estado.sentidos.vuelta.nombre || 'Vuelta', paradas: limpia(estado.sentidos.vuelta.paradas) }
+      }
+    }, null, 2);
+  }
+  document.getElementById('btnDescargar').onclick = function () {
+    var b = new Blob([exportar()], { type: 'application/json' });
+    var a = document.createElement('a'); a.href = URL.createObjectURL(b); a.download = 'paradas.json';
+    document.body.appendChild(a); a.click(); a.remove();
+  };
+  document.getElementById('btnCopiar').onclick = function () {
+    var t = exportar();
+    if (navigator.clipboard) navigator.clipboard.writeText(t).then(function () { toast('JSON copiado'); }, function () { prompt('Copia el JSON:', t); });
+    else prompt('Copia el JSON:', t);
+  };
+  document.getElementById('btnImportar').onclick = function () { var z = document.getElementById('zonaImport'); z.style.display = z.style.display === 'none' ? 'block' : 'none'; };
+  function importar(txt) {
+    try {
+      var j = JSON.parse(txt);
+      var nuevo = { linea: j.linea || '', sentidos: { ida: { nombre: '', paradas: [] }, vuelta: { nombre: '', paradas: [] } } };
+      ['ida', 'vuelta'].forEach(function (s) {
+        var src = (j.sentidos && j.sentidos[s]) || {};
+        nuevo.sentidos[s].nombre = src.nombre || '';
+        nuevo.sentidos[s].paradas = (src.paradas || []).slice().sort(function (a, b) { return (a.orden || 0) - (b.orden || 0); })
+          .map(function (p) { return { id: uid(), nombre: p.nombre || '', lat: +p.lat, lng: +p.lng, nota: p.nota || '' }; });
+      });
+      estado = nuevo; guardar(); iniciar(); toast('Cargado');
+      document.getElementById('zonaImport').style.display = 'none';
+    } catch (e) { toast('Ese JSON no es válido'); }
+  }
+  document.getElementById('btnCargar').onclick = function () { importar(document.getElementById('txtImport').value); };
+  document.getElementById('fichero').onchange = function (e) { var f = e.target.files[0]; if (!f) return; var r = new FileReader(); r.onload = function () { importar(r.result); }; r.readAsText(f); };
+  document.getElementById('btnBorrar').onclick = function () {
+    if (!confirm('¿Vaciar las paradas de ' + activo.toUpperCase() + '?')) return;
+    estado.sentidos[activo].paradas = []; guardar(); pintar();
+  };
+
+  function pintar() { pintarMapa(); pintarLista(); }
+  function iniciar() {
+    document.getElementById('linea').value = estado.linea || '';
+    cambiarSentido(activo);
+    var todas = estado.sentidos.ida.paradas.concat(estado.sentidos.vuelta.paradas);
+    if (todas.length) mapa.fitBounds(L.latLngBounds(todas.map(function (p) { return [p.lat, p.lng]; })).pad(0.2));
+  }
+  cargarLocal();
+  iniciar();
+})();
+</script>
+</body>
+</html>

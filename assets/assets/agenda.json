@@ -1,0 +1,203 @@
+{
+  "meta": {
+    "nombre": "Agenda del Real Sitio",
+    "actualizado": "2026-09-25"
+  },
+  "categorias": [
+    {
+      "id": "municipio",
+      "label": "Evento del municipio",
+      "color": "#E3B23C"
+    },
+    {
+      "id": "cultura",
+      "label": "Cultura",
+      "color": "#7B61C9"
+    },
+    {
+      "id": "teatro",
+      "label": "Teatro",
+      "color": "#B03A7A"
+    },
+    {
+      "id": "musica",
+      "label": "Música",
+      "color": "#4A7FD4"
+    },
+    {
+      "id": "exposicion",
+      "label": "Exposición",
+      "color": "#8A6D3B"
+    },
+    {
+      "id": "gastronomico",
+      "label": "Gastronomía",
+      "color": "#D9822B"
+    },
+    {
+      "id": "deporte",
+      "label": "Deporte",
+      "color": "#2E9E6B"
+    },
+    {
+      "id": "naturaleza",
+      "label": "Naturaleza",
+      "color": "#3E7D4F"
+    },
+    {
+      "id": "infantil",
+      "label": "Infantil",
+      "color": "#E0679A"
+    },
+    {
+      "id": "formacion",
+      "label": "Formación",
+      "color": "#25406E"
+    },
+    {
+      "id": "trafico",
+      "label": "Cortes de tráfico",
+      "color": "#C4442E"
+    }
+  ],
+  "lugares": [],
+  "anuncios": [],
+  "actos": [
+    {
+      "id": "ag-2026-09-26-penalara-trail",
+      "fecha": "2026-09-26",
+      "hora": "08:00",
+      "titulo": "XIII Peñalara Vertical Trail",
+      "descripcion": "Campeonato de Castilla y León de Carreras Verticales por Clubes y Final de la Copa de Castilla y León de Carreras Verticales.\n\nModalidades:\n· Vertical: 7 km, 1.150 m+\n· Trail: 20 km, 1.350 m+",
+      "categoria": "deporte",
+      "lugar_nota": "Salida: Plaza de los Dolores",
+      "destacado": true,
+      "cartel": "https://raw.githubusercontent.com/Letifico/La-Granja-app/main/carteles/penalara-trail-2026.jpg"
+    },
+    {
+      "id": "ag-2026-09-26-penalara-infantil",
+      "fecha": "2026-09-26",
+      "hora": "10:00",
+      "titulo": "XIII Peñalara Vertical Trail · Carrera infantil",
+      "descripcion": "Carrera para niños y niñas de 5 a 14 años.\n\nDistancia: 1,2 km · Desnivel: 160 m+",
+      "categoria": "infantil",
+      "lugar_nota": "Salida: Plaza de los Dolores",
+      "cartel": "https://raw.githubusercontent.com/Letifico/La-Granja-app/main/carteles/penalara-infantil-2026.jpg"
+    },
+    {
+      "id": "ag-2026-10-01-flamencura-calendario",
+      "fecha": "2026-10-01",
+      "hora": "19:30",
+      "titulo": "Presentación del Calendario Solidario 2027 · Flamencura",
+      "descripcion": "Presentación del calendario solidario 2027 de Flamencura, a beneficio de la Asociación Española Contra el Cáncer.\n\nCon música en directo de Sara Martín.",
+      "categoria": "musica",
+      "lugar_nota": "Sala S. XXI del Ayuntamiento",
+      "cartel": "https://raw.githubusercontent.com/Letifico/La-Granja-app/main/carteles/flamencura-calendario-2027.jpg"
+    },
+    {
+      "id": "ag-2026-10-10-feria-cerveza",
+      "fecha": "2026-10-10",
+      "hora": "12:00",
+      "titulo": "IV Feria de la Cerveza Artesana",
+      "descripcion": "Maestros cerveceros, food trucks y puestos, hinchables y pintacaras, sorteo de regalos y charanga.\n\nActuaciones: concierto de JdV Live, Rufo y sus alumnos, Bemba DJ y The Kaimans.\n\nOrganiza el Foro Local La Granja-Valsaín, con el Ayuntamiento del Real Sitio. Colabora Protección Civil.\n\nSi hace mal tiempo, se traslada al Mercado Municipal.",
+      "categoria": "gastronomico",
+      "lugar_nota": "Plaza de los Dolores",
+      "destacado": true,
+      "cartel": "https://raw.githubusercontent.com/Letifico/La-Granja-app/main/carteles/feria-cerveza-2026.jpg"
+    },
+    {
+      "id": "ag-2026-10-17-canonigos-viaje-ida-vuelta",
+      "fecha": "2026-10-17",
+      "hora": "19:00",
+      "titulo": "Viaje de ida y vuelta · Dale tu Vuelo",
+      "descripcion": "Circuitos Escénicos de Castilla y León.\n\nEntrada: 7 €\n\nVenta de entradas:\n· Casa de la Cultura, de lunes a viernes de 9:00 a 14:00 y de 16:00 a 20:00\n· Oficina de Turismo del Real Sitio\n· Piscinas Municipales\n· Taquilla del teatro, el mismo día de la actuación",
+      "categoria": "musica",
+      "lugar_nota": "Teatro Canónigos",
+      "entrada": true,
+      "cartel": "https://raw.githubusercontent.com/Letifico/La-Granja-app/main/carteles/teatro-canonigos-2026.jpg"
+    },
+    {
+      "id": "ag-2026-11-14-canonigos-que-pacha-mama",
+      "fecha": "2026-11-14",
+      "hora": "17:00",
+      "titulo": "¿Qué pacha, mama? · Líbera Teatro",
+      "descripcion": "Circuitos Escénicos de Castilla y León.\n\nEntrada: 5 €\n\nVenta de entradas:\n· Casa de la Cultura, de lunes a viernes de 9:00 a 14:00 y de 16:00 a 20:00\n· Oficina de Turismo del Real Sitio\n· Piscinas Municipales\n· Taquilla del teatro, el mismo día de la actuación",
+      "categoria": "teatro",
+      "lugar_nota": "Teatro Canónigos",
+      "entrada": true,
+      "cartel": "https://raw.githubusercontent.com/Letifico/La-Granja-app/main/carteles/teatro-canonigos-2026.jpg"
+    },
+    {
+      "id": "ag-2026-12-05-canonigos-cartero-real",
+      "fecha": "2026-12-05",
+      "hora": "17:00",
+      "titulo": "Cartero Real · Crispín d'Olot",
+      "descripcion": "Navidad, magia y cantacuentos.\n\nEntrada: precio por confirmar.\n\nVenta de entradas:\n· Casa de la Cultura, de lunes a viernes de 9:00 a 14:00 y de 16:00 a 20:00\n· Oficina de Turismo del Real Sitio\n· Piscinas Municipales\n· Taquilla del teatro, el mismo día de la actuación",
+      "categoria": "teatro",
+      "lugar_nota": "Teatro Canónigos",
+      "entrada": true,
+      "cartel": "https://raw.githubusercontent.com/Letifico/La-Granja-app/main/carteles/teatro-canonigos-2026.jpg"
+    },
+    {
+      "id": "ag-2026-expo-zaca-en-busca-de-la-luz",
+      "fecha": "2026-09-06",
+      "fecha_fin": "2026-10-25",
+      "titulo": "«En busca de la luz» · Acuarelas de Covadonga García",
+      "descripcion": "Exposición de acuarelas.\n\nHorario:\n· Martes a viernes: 11:30–14:00 y 17:15–19:30\n· Sábados, domingos y festivos: 11:30–20:00\n\nTeléfono: 606 25 45 87",
+      "categoria": "exposicion",
+      "lugar_nota": "Galería de Arte Zaca (Plaza del Vidriado)"
+    },
+    {
+      "id": "ag-2026-expo-ceneam-cronicas-gabarreras",
+      "fecha": "2026-08-31",
+      "fecha_fin": "2026-12-01",
+      "titulo": "«Un paseo por las portadas de Crónicas Gabarreras»",
+      "descripcion": "Exposición de pintura de Juan José Martín Encinas.\n\nHorario:\n· Lunes a jueves: 9:00–17:00\n· Viernes: 9:00–14:00\n\nSe inauguró el 31 de agosto en el CENEAM de Valsaín.",
+      "categoria": "exposicion",
+      "lugar_nota": "CENEAM (Valsaín)",
+      "cartel": "https://raw.githubusercontent.com/Letifico/La-Granja-app/main/carteles/expo-cronicas-gabarreras-2026.jpg"
+    },
+    {
+      "id": "ag-expo-ceneam-cuando-el-paisaje-duele",
+      "fecha": "2026-01-01",
+      "fecha_fin": "permanente",
+      "titulo": "«Cuando el paisaje duele»",
+      "descripcion": "39 obras de alumnos del Curso de Pintores Pensionados de 2019 (Real Academia de Historia y Arte de San Quirce de Segovia), inspiradas en los incendios que sufrió la sierra de Guadarrama aquel verano.\n\nHorario: lunes a viernes de 9:00 a 14:00. Entrada gratuita.\n\nSe recomienda llamar antes: 921 47 17 11 / 921 47 17 44. Reservas: 921 47 38 80.\n\nPaseo José María Ruiz-Dana, s/n – Valsaín",
+      "categoria": "exposicion",
+      "lugar_nota": "CENEAM (Valsaín)"
+    },
+    {
+      "id": "ag-escuela-2026-27-danza",
+      "fecha": "2026-09-01",
+      "fecha_fin": "permanente",
+      "periodo": "Curso 2026-2027",
+      "titulo": "Escuela de Música y Danza · Horarios de danza",
+      "descripcion": "Horario semanal previsto de danza clásica, danza española y sevillanas.\n\nLUNES\n· 16:00 Danza clásica (nacidas en 2014, 2015 y 2016)\n· 17:00 Danza clásica (2019 y 2020)\n· 18:00 Danza clásica (2017 y 2018)\n· 19:00 Sevillanas y castañuelas · adultos 2\n· 20:00 Sevillanas · adultos 1\n· 21:00 Sevillanas · adultos iniciación\n\nMARTES\n· 16:00 Danza clásica (2013)\n· 17:00 Danza clásica (2021, 2022 y 2023)\n· 18:00 Danza clásica (2011 y 2012)\n· 19:30 Danza clásica (2001 a 2006)\n· 21:00 Sevillanas · adultos avanzado\n\nMIÉRCOLES\n· 16:00 Danza española (2014, 2015 y 2016)\n· 17:00 Danza española (2019 y 2020)\n· 18:00 Danza española (2017 y 2018)\n· 19:00 Sevillanas · adultos 2\n· 20:00 Sevillanas · adultos 1\n· 21:00 Sevillanas · adultos iniciación\n\nJUEVES\n· 16:00 Danza española (2013)\n· 17:00 Danza española (2021, 2022 y 2023)\n· 18:00 Danza española · escuela bolera (2011 y 2012)\n· 19:30 Danza española (2001 a 2006)\n· 21:00 Sevillanas · adultos avanzado\n\nSÁBADO\n· 10:00 Horas complementarias: flamenco\n\nContacto: 921 411 585 · WhatsApp 638 477 240 · escuelademusicaydanza@lagranja-valsain.com\n\nHorarios previstos: pueden sufrir cambios.",
+      "categoria": "formacion",
+      "lugar_nota": "Escuela Municipal de Música y Danza (Plaza del Matadero, 2)",
+      "cartel": "https://raw.githubusercontent.com/Letifico/La-Granja-app/main/carteles/escuela-danza-2026-27.jpg"
+    },
+    {
+      "id": "ag-escuela-2026-27-musica",
+      "fecha": "2026-09-01",
+      "fecha_fin": "permanente",
+      "periodo": "Curso 2026-2027",
+      "titulo": "Escuela de Música y Danza · Horarios de música",
+      "descripcion": "Horario semanal previsto de música y movimiento, lenguaje musical y otras clases colectivas.\n\nLUNES\n· 16:00 Música y movimiento, 6-7 años (nacidos en 2020)\n· 17:00 Música y movimiento, 5-6 años (2021)\n· 18:00 Música y movimiento, 4-5 años (2022)\n· 19:00 Lenguaje musical · adultos 2.º\n· 20:00 Lenguaje musical · adultos 5.º\n\nMIÉRCOLES\n· 16:00 Iniciación al lenguaje musical (2019)\n· 17:00 Música y movimiento, 5-6 años (2021)\n· 18:00 Educación musical temprana, 3 años (2023)\n· 19:00 Lenguaje musical · adultos 3.º\n· 20:00 Lenguaje musical · adultos 1.º\n\nJUEVES\n· 16:00 Lenguaje musical · niños 3.º (2016-2017)\n· 17:00 Lenguaje musical · niños 4.º (2014-2015)\n· 18:00 Lenguaje musical · niños 2.º (2018)\n· 19:00 Música aplicada a la danza\n· 20:00 Lenguaje musical · adultos 4.º\n\nVIERNES (mañana)\n· 9:30 Lenguaje musical · adultos 3.º\n· 10:30 Iniciación al lenguaje musical · adultos 2.º\n· 11:30 Musicoterapia ADISIL\n· 12:30 Lenguaje musical · adultos 1.º\n· 13:30 Lenguaje musical · adultos 4.º\n\nVIERNES (tarde)\n· 16:00 Lenguaje musical · niños 2.º (2016-2017)\n· 17:00 Lenguaje musical · niños 3.º (2014-2015)\n· 18:00 Lenguaje musical\n\nContacto: 921 411 585 · WhatsApp 638 477 240 · escuelademusicaydanza@lagranja-valsain.com\n\nHorarios previstos: pueden sufrir cambios.",
+      "categoria": "formacion",
+      "lugar_nota": "Escuela Municipal de Música y Danza (Plaza del Matadero, 2)",
+      "cartel": "https://raw.githubusercontent.com/Letifico/La-Granja-app/main/carteles/escuela-musica-2026-27.jpg"
+    },
+    {
+      "id": "ag-escuela-2026-27-instrumentos",
+      "fecha": "2026-09-01",
+      "fecha_fin": "permanente",
+      "periodo": "Curso 2026-2027",
+      "titulo": "Escuela de Música y Danza · Días de instrumento",
+      "descripcion": "Días previstos para las clases de instrumento (la hora concreta se asigna a cada alumno).\n\n· Bajo y batería: miércoles mañana · viernes mañana y tarde · sábado mañana\n· Canto, clarinete y saxofón: martes, miércoles y jueves, mañana y tarde\n· Dulzaina y percusión tradicional: lunes y jueves por la tarde\n· Guitarra: lunes tarde · martes mañana · miércoles tarde\n· Piano: martes y jueves, mañana y tarde · viernes tarde\n· Violoncello: miércoles tarde · jueves mañana\n\nCada especialidad necesita un mínimo de alumnos para salir adelante. Las plazas son limitadas y los horarios se organizan por orden de inscripción.\n\nContacto: 921 411 585 · WhatsApp 638 477 240 · escuelademusicaydanza@lagranja-valsain.com\n\nHorarios previstos: pueden sufrir cambios.",
+      "categoria": "formacion",
+      "lugar_nota": "Escuela Municipal de Música y Danza (Plaza del Matadero, 2)",
+      "cartel": "https://raw.githubusercontent.com/Letifico/La-Granja-app/main/carteles/escuela-instrumentos-2026-27.jpg"
+    }
+  ]
+}

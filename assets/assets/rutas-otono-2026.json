@@ -1,0 +1,399 @@
+{
+  "meta": {
+    "nombre": "Rutas guiadas y excursiones didácticas · Otoño 2026",
+    "organiza": "Parque Nacional de la Sierra de Guadarrama (vertiente segoviana) · CENEAM · Centro Montes de Valsaín",
+    "actualizado": "2026-09-25"
+  },
+  "categorias": [
+    {
+      "id": "ruta",
+      "label": "Ruta guiada",
+      "color": "#3E7D4F"
+    },
+    {
+      "id": "didactica",
+      "label": "Excursión didáctica",
+      "color": "#1F8A9E"
+    }
+  ],
+  "lugares": [
+    {
+      "id": "cosios",
+      "nombre": "Puerta de Cosíos (San Ildefonso)",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "cotos",
+      "nombre": "Puerto de los Cotos (cartel del Parque Nacional)",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "navafria-puerto",
+      "nombre": "Refugio del puerto de Navafría",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "cantina",
+      "nombre": "Aparcamiento del Puente de la Cantina (CL-601, km 17)",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "revenga",
+      "nombre": "Revenga (aparcamiento junto a la parada de autobús)",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "boca-asno",
+      "nombre": "Centro de Visitantes Boca del Asno (CL-601, km 14,3)",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "losa",
+      "nombre": "N-603, km 81,5 (junto al Panorámico de La Losa)",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "casa-flores",
+      "nombre": "San Ildefonso (aparcamiento frente a la Casa de las Flores)",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "puente-valsain",
+      "nombre": "Valsaín (puente sobre el río Eresma)",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "ceneam",
+      "nombre": "Puerta del CENEAM (Valsaín)",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "asientos",
+      "nombre": "Área recreativa de Los Asientos (CL-601, km 12)",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "centro-montes",
+      "nombre": "Centro Montes de Valsaín y Cabeza de Hierro",
+      "lat": null,
+      "lng": null
+    },
+    {
+      "id": "chorro-navafria",
+      "nombre": "Navafría (área recreativa del Chorro)",
+      "lat": null,
+      "lng": null
+    }
+  ],
+  "anuncios": [
+    {
+      "titulo": "Gratuitas, con reserva previa",
+      "texto": "Las plazas son limitadas. Se reserva en la Central de Reservas de Parques Nacionales (reservasparquesnacionales.es). El plazo de cada actividad se abre el lunes anterior."
+    },
+    {
+      "titulo": "Cancelaciones",
+      "texto": "Hasta el viernes anterior a las 13:00, en el 921 120 013 o en bocadelasno@oapn.es. Quien no se presente sin avisar no podrá participar durante un trimestre; si se repite, durante un año."
+    },
+    {
+      "titulo": "Condiciones",
+      "texto": "Los menores van siempre con un adulto. Hay que seguir las indicaciones del guía, que puede cambiar o suspender la ruta por causa justificada. Lleva calzado y ropa adecuados, agua y algo de comida. Se recomienda ir en transporte público."
+    },
+    {
+      "titulo": "Perros",
+      "texto": "Admitidos en todas las rutas guiadas y en las excursiones didácticas del programa, siempre con correa (y bozal si hace falta) y avisando antes a bocadelasno@oapn.es."
+    }
+  ],
+  "actos": [
+    {
+      "id": "ro-2026-09-19-la-silla-del-rey",
+      "fecha": "2026-09-19",
+      "hora": "09:30",
+      "titulo": "La Silla del Rey",
+      "descripcion": "Subida al Moño de la Tía Andrea, el cerro de pinos junto a La Granja en cuya cima está la silla de granito que Francisco de Asís mandó colocar en 1848 para contemplar las vistas.\n\nItinerario: Puerta de Cosíos – Camino Nogal de las Calabazas – Vado de los Tres Maderos – Vado de Oquendo – Silla del Rey – Casa del Cebo – Fuente de la Plata – Puerta de Cosíos.\n\n11 km · 464 m de desnivel · unas 4 h · dificultad alta.\n\nSe admiten perros (avisando antes a bocadelasno@oapn.es).",
+      "categoria": "ruta",
+      "lugar_id": "cosios",
+      "lugar_nota": "Puerta de Cosíos (San Ildefonso)"
+    },
+    {
+      "id": "ro-2026-09-20-los-paisajes-de-las-cumbres-del-guadarrama",
+      "fecha": "2026-09-20",
+      "hora": "09:30",
+      "titulo": "Los paisajes de las cumbres del Guadarrama",
+      "descripcion": "Recorrido para aprender a reconocer en el paisaje las señales del cambio global.\n\nCon Julio Rodríguez Vivanco (Sección de Educación Ambiental y Cooperación del CENEAM).\n\n4,5 km · unas 4 h · dificultad media.\nPúblico: a partir de 10 años (se admiten perros, avisando antes a bocadelasno@oapn.es).",
+      "categoria": "didactica",
+      "lugar_id": "cotos",
+      "lugar_nota": "Puerto de los Cotos (cartel del Parque Nacional)"
+    },
+    {
+      "id": "ro-2026-09-26-el-pico-del-nevero",
+      "fecha": "2026-09-26",
+      "hora": "09:30",
+      "titulo": "El pico del Nevero",
+      "descripcion": "Un enclave muy especial de la sierra y un gran mirador sobre la llanura segoviana, el valle del Lozoya y el macizo de Peñalara.\n\nItinerario: Puerto de Navafría – Las Lagunillas – mirador de la peña del Cuervo – pico del Nevero – Alto del Puerto – mirador de Navalcollado – Puerto de Navafría.\n\n13,5 km · 470 m de desnivel · unas 4 h 30 min · dificultad alta.\n\nSe admiten perros (avisando antes a bocadelasno@oapn.es).",
+      "categoria": "ruta",
+      "lugar_id": "navafria-puerto",
+      "lugar_nota": "Refugio del puerto de Navafría"
+    },
+    {
+      "id": "ro-2026-09-27-soldados-en-las-cumbres",
+      "fecha": "2026-09-27",
+      "hora": "09:00",
+      "titulo": "Soldados en las cumbres",
+      "descripcion": "Paseo para interpretar los restos de construcciones de la Guerra Civil que se conservan en las cumbres de Dos Hermanas – Peña Citores.\n\nCon Carlos de Miguel (Sección de Educación Ambiental y Cooperación del CENEAM).\n\n8 km · unas 5 h · dificultad alta.\nPúblico: a partir de 14 años (se admiten perros, avisando antes a bocadelasno@oapn.es).",
+      "categoria": "didactica",
+      "lugar_id": "cotos",
+      "lugar_nota": "Puerto de los Cotos (cartel del Parque Nacional)"
+    },
+    {
+      "id": "ro-2026-10-03-el-puerto-de-la-fuenfria",
+      "fecha": "2026-10-03",
+      "hora": "09:30",
+      "titulo": "El puerto de la Fuenfría",
+      "descripcion": "Subida al puerto de la Fuenfría por el mismo paso que durante siglos usaron quienes cruzaban la sierra, viendo los restos que quedan de la antigua calzada.\n\nItinerario: Puente de la Cantina – Puente del Minguete – Senda GR-88 – Puerto de la Fuenfría – Calzada Romana – Casa Eraso – Fuente de la Reina – Puente de la Cantina.\n\n15 km · 555 m de desnivel · unas 5 h 30 min · dificultad alta.\n\nSe admiten perros (avisando antes a bocadelasno@oapn.es).",
+      "categoria": "ruta",
+      "lugar_id": "cantina",
+      "lugar_nota": "Aparcamiento del Puente de la Cantina (CL-601, km 17)"
+    },
+    {
+      "id": "ro-2026-10-04-palabras-para-la-montana",
+      "fecha": "2026-10-04",
+      "hora": "10:00",
+      "titulo": "Palabras para la montaña",
+      "descripcion": "Paseo por el monte acompañado de textos literarios sobre la naturaleza y la montaña.\n\nCon Juan Antonio del Barrio, profesor de Literatura.\n\n6,5 km · unas 4 h · dificultad baja.\nPúblico: a partir de 10 años (se admiten perros, avisando antes a bocadelasno@oapn.es).",
+      "categoria": "didactica",
+      "lugar_id": "ceneam",
+      "lugar_nota": "Puerta del CENEAM (Valsaín)"
+    },
+    {
+      "id": "ro-2026-10-10-canadas-y-cordeles",
+      "fecha": "2026-10-10",
+      "hora": "10:00",
+      "titulo": "Cañadas y cordeles",
+      "descripcion": "Por la Cañada de la vera de la Sierra y el cordel de Santillana, hasta las ruinas del Esquileo de Iturbieta, para entender el peso que tuvo la trashumancia al pie de la sierra.\n\nItinerario: Revenga – Camino de Carrera Blanca – Cañada Real Soriana Occidental – Esquileo de Iturbieta – Cordel de Santillana – Camino Real – Revenga.\n\n10 km · 100 m de desnivel · unas 4 h · dificultad media-baja.\n\nSe admiten perros (avisando antes a bocadelasno@oapn.es).",
+      "categoria": "ruta",
+      "lugar_id": "revenga",
+      "lugar_nota": "Revenga (aparcamiento junto a la parada de autobús)"
+    },
+    {
+      "id": "ro-2026-10-11-el-puente-de-navalacarreta",
+      "fecha": "2026-10-11",
+      "hora": "10:00",
+      "titulo": "El puente de Navalacarreta",
+      "descripcion": "Itinerario sencillo entre los pinos de Valsaín para conocer la flora y la fauna del río Eresma y algunos restos históricos escondidos en el monte.\n\nItinerario: Boca del Asno – puente de Vadillos – Pesquerías Reales – mirador de Boca del Asno – Peña la Barca – Puente de Navalacarreta – Boca del Asno.\n\n7 km · 60 m de desnivel · unas 3–3,5 h · dificultad baja.\n\nSe admiten perros (avisando antes a bocadelasno@oapn.es).",
+      "categoria": "ruta",
+      "lugar_id": "boca-asno",
+      "lugar_nota": "Centro de Visitantes Boca del Asno (CL-601, km 14,3)"
+    },
+    {
+      "id": "ro-2026-10-17-laderas-de-la-mujer-muerta",
+      "fecha": "2026-10-17",
+      "hora": "10:00",
+      "titulo": "Laderas de la Mujer Muerta",
+      "descripcion": "Recorrido por la ladera de la Mujer Muerta, con sus leyendas, sus vistas y los canchales típicos de la alta montaña.\n\nItinerario: Cordel de Matazarzal – cruce de la Cañada Real Soriana – mirador del Barranco de la Pedrona – canchales de la Mujer Muerta – arroyo Majada Conejo – rancho de Becea – cordel de Matazarzal.\n\n9,2 km · 343 m de desnivel · unas 3 h · dificultad media-baja.\n\nSe admiten perros (avisando antes a bocadelasno@oapn.es).",
+      "categoria": "ruta",
+      "lugar_id": "losa",
+      "lugar_nota": "N-603, km 81,5 (junto al Panorámico de La Losa)"
+    },
+    {
+      "id": "ro-2026-10-18-el-albogue-de-la-sierra",
+      "fecha": "2026-10-18",
+      "hora": "11:00",
+      "titulo": "El albogue de la sierra",
+      "descripcion": "Paseo musical con el albogue, un instrumento pastoril ancestral que volverá a sonar en los bosques del Guadarrama.\n\nCon Miguel Nava Cuervo y Ana Martínez, investigadores e intérpretes de músicas populares.\n\n3 km · unas 3 h · dificultad baja.\nPúblico: familiar (se admiten perros, avisando antes a bocadelasno@oapn.es).",
+      "categoria": "didactica",
+      "lugar_id": "ceneam",
+      "lugar_nota": "Puerta del CENEAM (Valsaín)"
+    },
+    {
+      "id": "ro-2026-10-24-chorro-grande-y-chorro-chico",
+      "fecha": "2026-10-24",
+      "hora": "10:00",
+      "titulo": "Chorro Grande y Chorro Chico",
+      "descripcion": "Ruta hasta dos de los saltos de agua más conocidos de la sierra de Guadarrama, atravesando una mata de roble emblemática.\n\nItinerario: Casa de las Flores – Caserío de Urgel – Camino de Chorro Grande – Chorro Grande – Chorro Chico (ida y vuelta por el mismo camino).\n\n6,8 km · 245 m de desnivel · unas 3–3,5 h · dificultad media.\n\nSe admiten perros (avisando antes a bocadelasno@oapn.es).",
+      "categoria": "ruta",
+      "lugar_id": "casa-flores",
+      "lugar_nota": "San Ildefonso (aparcamiento frente a la Casa de las Flores)"
+    },
+    {
+      "id": "ro-2026-10-25-bronce-madera-y-piel",
+      "fecha": "2026-10-25",
+      "hora": "10:00",
+      "titulo": "Bronce, madera y piel",
+      "descripcion": "Recorrido por el bosque recordando los paisajes sonoros de la música tradicional.\n\nCon Esther Sánchez y Jesús Suárez, de Raigambre (proyecto de divulgación de las músicas de tradición oral).\n\n5,8 km · unas 3,5 h · dificultad baja.\nPúblico: familiar (se admiten perros, avisando antes a bocadelasno@oapn.es).",
+      "categoria": "didactica",
+      "lugar_id": "ceneam",
+      "lugar_nota": "Puerta del CENEAM (Valsaín)"
+    },
+    {
+      "id": "ro-2026-10-31-el-salto-del-olvido",
+      "fecha": "2026-10-31",
+      "hora": "10:00",
+      "titulo": "El Salto del Olvido",
+      "descripcion": "Ruta siguiendo el agua: desde la presa del Salto del Olvido por la canalización hasta la central hidroeléctrica, y vuelta río arriba por las Pesquerías Reales junto al Eresma.\n\nItinerario: Puente de Valsaín – Presa – Central eléctrica del Salto del Olvido – Puente de las Pasaderas – Escala de peces – Puente de Valsaín.\n\n4 km · 73 m de desnivel · unas 2 h 30 min · dificultad media-baja.\n\nSe admiten perros (avisando antes a bocadelasno@oapn.es).",
+      "categoria": "ruta",
+      "lugar_id": "puente-valsain",
+      "lugar_nota": "Valsaín (puente sobre el río Eresma)"
+    },
+    {
+      "id": "ro-2026-11-01-versos-en-las-trincheras",
+      "fecha": "2026-11-01",
+      "hora": "10:00",
+      "titulo": "Versos en las trincheras",
+      "descripcion": "Paseo por escenarios de la Guerra Civil con recitado de poemas escritos por y para los soldados de aquella época.\n\nCon Carmen Hidalgo (actriz), Cuco Pérez (músico) y Carlos de Miguel (CENEAM).\n\n2 km · unas 3,5 h · dificultad media.\nPúblico: a partir de 14 años (se admiten perros, avisando antes a bocadelasno@oapn.es).",
+      "categoria": "didactica",
+      "lugar_id": "ceneam",
+      "lugar_nota": "Puerta del CENEAM (Valsaín)"
+    },
+    {
+      "id": "ro-2026-11-07-revenga-cruz-de-la-gallega",
+      "fecha": "2026-11-07",
+      "hora": "10:00",
+      "titulo": "Revenga – Cruz de la Gallega",
+      "descripcion": "Paseo por un tramo de la Cañada Real Soriana Occidental, pasando por las ruinas del Esquileo de Santillana, hasta la Cruz de la Gallega, con vistas a Segovia.\n\nItinerario: Revenga – Vereda de Carrera Blanca – Cañada Real Soriana Occidental – ruinas del Esquileo de Santillana – Cruz de la Gallega – Navalrey – Revenga.\n\n13 km · 205 m de desnivel · unas 4 h · dificultad media-alta.\n\nSe admiten perros (avisando antes a bocadelasno@oapn.es).",
+      "categoria": "ruta",
+      "lugar_id": "revenga",
+      "lugar_nota": "Revenga (aparcamiento junto a la parada de autobús)"
+    },
+    {
+      "id": "ro-2026-11-08-arboles-y-paisaje-de-valsain",
+      "fecha": "2026-11-08",
+      "hora": "10:00",
+      "titulo": "Árboles y paisaje de Valsaín",
+      "descripcion": "Paseo por el bosque de Valsaín para conocer sus ecosistemas más característicos.\n\nCon Felipe Castilla, botánico.\n\n7 km · unas 4 h · dificultad baja.\nPúblico: a partir de 10 años (se admiten perros, avisando antes a bocadelasno@oapn.es).",
+      "categoria": "didactica",
+      "lugar_id": "ceneam",
+      "lugar_nota": "Puerta del CENEAM (Valsaín)"
+    },
+    {
+      "id": "ro-2026-11-14-la-vereda-de-la-canaleja",
+      "fecha": "2026-11-14",
+      "hora": "10:00",
+      "titulo": "La vereda de la Canaleja",
+      "descripcion": "Antiguo camino que usaban los vecinos para pasar de una vertiente a otra, cerca del arroyo del Puerto.\n\nItinerario: Puente de la Cantina – Pradera de Vaquerizas – Arroyo del Puerto – Puente de la Cantina.\n\n5,5 km · 180 m de desnivel · unas 3,5 h · dificultad media.\n\nSe admiten perros (avisando antes a bocadelasno@oapn.es).",
+      "categoria": "ruta",
+      "lugar_id": "cantina",
+      "lugar_nota": "Aparcamiento del Puente de la Cantina (CL-601, km 17)"
+    },
+    {
+      "id": "ro-2026-11-15-los-arroyos-del-mar",
+      "fecha": "2026-11-15",
+      "hora": "10:00",
+      "titulo": "Los arroyos del Mar",
+      "descripcion": "Subida entre robledales por rincones poco conocidos de los montes de Valsaín y regreso siguiendo los arroyos que bajan hacia el Palacio Real.\n\nItinerario: Puerta de Cosíos – Puente Blanco – Puente Negro – Puente del Vado de los Tres Maderos – Los Tobarejos – El Esquinazo – Puerta de Cosíos.\n\n9 km · 307 m de desnivel · unas 4 h · dificultad media-alta.\n\nSe admiten perros (avisando antes a bocadelasno@oapn.es).",
+      "categoria": "ruta",
+      "lugar_id": "cosios",
+      "lugar_nota": "Puerta de Cosíos (San Ildefonso)"
+    },
+    {
+      "id": "ro-2026-11-21-sendero-del-acueducto",
+      "fecha": "2026-11-21",
+      "hora": "10:00",
+      "titulo": "Sendero del Acueducto",
+      "descripcion": "Recorrido por el bosque en busca del azud del Acueducto de Segovia, entre vegetación variada y construcciones antiguas y modernas ligadas al agua.\n\nItinerario: Revenga – Embalse de Puente Alta – cruce con la Cañada Real Soriana Occidental – Azud del Acueducto – Arroyo Valdeconejos – Vereda de Carrera Blanca – Revenga.\n\n10 km · 200 m de desnivel · unas 3,5 h · dificultad media-baja.\n\nSe admiten perros (avisando antes a bocadelasno@oapn.es).",
+      "categoria": "ruta",
+      "lugar_id": "revenga",
+      "lugar_nota": "Revenga (aparcamiento junto a la parada de autobús)"
+    },
+    {
+      "id": "ro-2026-11-22-el-parque-del-rey",
+      "fecha": "2026-11-22",
+      "hora": "10:00",
+      "titulo": "El Parque del Rey",
+      "descripcion": "Desde Los Asientos, entre pinares, hasta la pradera del Parque con sus robles, junto a las ruinas del antiguo palacio de los Austrias en Valsaín.\n\nItinerario: Los Asientos – Puente de los Canales – El Parque – Palacio de Valsaín – Puente del Parque – Los Asientos.\n\n5,5 km · 20 m de desnivel · unas 2 h 30 min · dificultad baja.\n\nSe admiten perros (avisando antes a bocadelasno@oapn.es).",
+      "categoria": "ruta",
+      "lugar_id": "asientos",
+      "lugar_nota": "Área recreativa de Los Asientos (CL-601, km 12)"
+    },
+    {
+      "id": "ro-2026-11-28-cabeza-grande",
+      "fecha": "2026-11-28",
+      "hora": "10:00",
+      "titulo": "Cabeza Grande",
+      "descripcion": "Subida a uno de los enclaves de la Guerra Civil más significativos, con restos de trincheras, barracones y nidos de ametralladoras. La cima, a 1.428 m, tiene muy buenas vistas.\n\nItinerario: Revenga – Vereda de Carrera Blanca – Cañada Real Soriana Occidental – Cabeza Grande (ida y vuelta por el mismo camino).\n\n8 km · 262 m de desnivel · unas 3,5 h · dificultad media.\n\nSe admiten perros (avisando antes a bocadelasno@oapn.es).",
+      "categoria": "ruta",
+      "lugar_id": "revenga",
+      "lugar_nota": "Revenga (aparcamiento junto a la parada de autobús)"
+    },
+    {
+      "id": "ro-2026-11-29-batan-de-vargas-venta-de-los-mosquitos",
+      "fecha": "2026-11-29",
+      "hora": "10:00",
+      "titulo": "Batán de Vargas – Venta de los Mosquitos",
+      "descripcion": "Tramo de la Senda Real o Camino de Pesquerías, por las dos orillas del Eresma, entre su vegetación de ribera y las huellas que ha dejado la gente con los siglos.\n\nItinerario: Boca del Asno – Puente de los Vadillos – Batán de Vargas – Casa de la Pesca – Venta de los Mosquitos – Puente de los Vadillos – Boca del Asno.\n\n8 km · 183 m de desnivel · unas 4 h · dificultad media.\n\nSe admiten perros (avisando antes a bocadelasno@oapn.es).",
+      "categoria": "ruta",
+      "lugar_id": "boca-asno",
+      "lugar_nota": "Centro de Visitantes Boca del Asno (CL-601, km 14,3)"
+    },
+    {
+      "id": "ro-2026-12-05-la-cueva-del-monje",
+      "fecha": "2026-12-05",
+      "hora": "10:00",
+      "titulo": "La Cueva del Monje",
+      "descripcion": "Entre pinos y arroyos hasta la Fuente del Ratón y la Cueva del Monje, la piedra caballera que dio origen a una conocida leyenda.\n\nItinerario: Centro de Montes – Vado de los Tres Maderos – Cueva del Monje – Fuente del Ratón – Centro de Montes.\n\n7,5 km · 180 m de desnivel · unas 3,5 h · dificultad media-baja.\n\nSe admiten perros (avisando antes a bocadelasno@oapn.es).",
+      "categoria": "ruta",
+      "lugar_id": "centro-montes",
+      "lugar_nota": "Centro Montes de Valsaín y Cabeza de Hierro"
+    },
+    {
+      "id": "ro-2026-12-06-el-puente-de-navalacarreta",
+      "fecha": "2026-12-06",
+      "hora": "10:00",
+      "titulo": "El puente de Navalacarreta",
+      "descripcion": "Itinerario sencillo entre los pinos de Valsaín para conocer la flora y la fauna del río Eresma y algunos restos históricos escondidos en el monte.\n\nItinerario: Boca del Asno – puente de Vadillos – Pesquerías Reales – mirador de Boca del Asno – Peña la Barca – Puente de Navalacarreta – Boca del Asno.\n\n7 km · 60 m de desnivel · unas 3–3,5 h · dificultad baja.\n\nSe admiten perros (avisando antes a bocadelasno@oapn.es).",
+      "categoria": "ruta",
+      "lugar_id": "boca-asno",
+      "lugar_nota": "Centro de Visitantes Boca del Asno (CL-601, km 14,3)"
+    },
+    {
+      "id": "ro-2026-12-12-la-fuente-de-la-plata",
+      "fecha": "2026-12-12",
+      "hora": "10:00",
+      "titulo": "La Fuente de la Plata",
+      "descripcion": "Paseo fresco desde el Real Taller Aserrío de Valsaín, entre pinares y robledales y siempre cerca del agua, hasta la Fuente de la Plata, en pleno valle.\n\nItinerario: Centro de Montes – Vado de los Tres Maderos – Fuente de la Plata – Casa del Cebo – Los Tobarejos – Vado de los Tres Maderos – Centro de Montes.\n\n6 km · 128 m de desnivel · unas 3 h · dificultad baja.\n\nSe admiten perros (avisando antes a bocadelasno@oapn.es).",
+      "categoria": "ruta",
+      "lugar_id": "centro-montes",
+      "lugar_nota": "Centro Montes de Valsaín y Cabeza de Hierro"
+    },
+    {
+      "id": "ro-2026-12-13-los-puentes-sobre-el-rio-eresma",
+      "fecha": "2026-12-13",
+      "hora": "10:00",
+      "titulo": "Los puentes sobre el río Eresma",
+      "descripcion": "Ruta desde Los Asientos para conocer los puentes que cruzan el Eresma.\n\nItinerario: Los Asientos – Puente de Navalacarreta – Puente de los Canales – Los Asientos.\n\n4,5 km · 70 m de desnivel · unas 2 h 30 min · dificultad baja.\n\nSe admiten perros (avisando antes a bocadelasno@oapn.es).",
+      "categoria": "ruta",
+      "lugar_id": "asientos",
+      "lugar_nota": "Área recreativa de Los Asientos (CL-601, km 12)"
+    },
+    {
+      "id": "ro-2026-12-19-canadas-y-cordeles",
+      "fecha": "2026-12-19",
+      "hora": "10:00",
+      "titulo": "Cañadas y cordeles",
+      "descripcion": "Por la Cañada de la vera de la Sierra y el cordel de Santillana, hasta las ruinas del Esquileo de Iturbieta, para entender el peso que tuvo la trashumancia al pie de la sierra.\n\nItinerario: Revenga – Camino de Carrera Blanca – Cañada Real Soriana Occidental – Esquileo de Iturbieta – Cordel de Santillana – Camino Real – Revenga.\n\n10 km · 100 m de desnivel · unas 4 h · dificultad media-baja.\n\nSe admiten perros (avisando antes a bocadelasno@oapn.es).",
+      "categoria": "ruta",
+      "lugar_id": "revenga",
+      "lugar_nota": "Revenga (aparcamiento junto a la parada de autobús)"
+    },
+    {
+      "id": "ro-2026-12-20-el-chorro-de-navafria-y-los-castillejos",
+      "fecha": "2026-12-20",
+      "hora": "10:00",
+      "titulo": "El Chorro de Navafría y los Castillejos",
+      "descripcion": "Por el pinar de Navafría para descubrir sus saltos de agua y las formaciones rocosas de los Castillejos.\n\nItinerario: Área recreativa – salto de El Chorro – arroyo de El Chorro – arroyo Sequillo – mirador de las Cebadillas – ladera de los Berrunos – área recreativa.\n\n5,5 km · 232 m de desnivel · unas 3,5–4 h · dificultad media.\n\nSe admiten perros (avisando antes a bocadelasno@oapn.es).",
+      "categoria": "ruta",
+      "lugar_id": "chorro-navafria",
+      "lugar_nota": "Navafría (área recreativa del Chorro)"
+    }
+  ]
+}

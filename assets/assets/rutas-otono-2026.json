@@ -20,80 +20,80 @@
     {
       "id": "cosios",
       "nombre": "Puerta de Cosíos (San Ildefonso)",
-      "lat": null,
-      "lng": null
+      "lat": 40.893445,
+      "lng": -4.009162
     },
     {
       "id": "cotos",
       "nombre": "Puerto de los Cotos (cartel del Parque Nacional)",
-      "lat": null,
-      "lng": null
+      "lat": 40.823272,
+      "lng": -3.962247
     },
     {
       "id": "navafria-puerto",
       "nombre": "Refugio del puerto de Navafría",
-      "lat": null,
-      "lng": null
+      "lat": 41.026635,
+      "lng": -3.830596
     },
     {
       "id": "cantina",
       "nombre": "Aparcamiento del Puente de la Cantina (CL-601, km 17)",
-      "lat": null,
-      "lng": null
+      "lat": 40.823087,
+      "lng": -4.017322
     },
     {
       "id": "revenga",
       "nombre": "Revenga (aparcamiento junto a la parada de autobús)",
-      "lat": null,
-      "lng": null
+      "lat": 40.872137,
+      "lng": -4.100337
     },
     {
       "id": "boca-asno",
       "nombre": "Centro de Visitantes Boca del Asno (CL-601, km 14,3)",
-      "lat": null,
-      "lng": null
+      "lat": 40.844923,
+      "lng": -4.025699
     },
     {
       "id": "losa",
       "nombre": "N-603, km 81,5 (junto al Panorámico de La Losa)",
-      "lat": null,
-      "lng": null
+      "lat": 40.84176,
+      "lng": -4.142752
     },
     {
       "id": "casa-flores",
       "nombre": "San Ildefonso (aparcamiento frente a la Casa de las Flores)",
-      "lat": null,
-      "lng": null
+      "lat": 40.900502,
+      "lng": -4.000877
     },
     {
       "id": "puente-valsain",
       "nombre": "Valsaín (puente sobre el río Eresma)",
-      "lat": null,
-      "lng": null
+      "lat": 40.876791,
+      "lng": -4.023799
     },
     {
       "id": "ceneam",
       "nombre": "Puerta del CENEAM (Valsaín)",
-      "lat": null,
-      "lng": null
+      "lat": 40.871807,
+      "lng": -4.018602
     },
     {
       "id": "asientos",
       "nombre": "Área recreativa de Los Asientos (CL-601, km 12)",
-      "lat": null,
-      "lng": null
+      "lat": 40.861302,
+      "lng": -4.027613
     },
     {
       "id": "centro-montes",
       "nombre": "Centro Montes de Valsaín y Cabeza de Hierro",
-      "lat": null,
-      "lng": null
+      "lat": 40.880289,
+      "lng": -4.015302
     },
     {
       "id": "chorro-navafria",
       "nombre": "Navafría (área recreativa del Chorro)",
-      "lat": null,
-      "lng": null
+      "lat": 41.030112,
+      "lng": -3.828124
     }
   ],
   "anuncios": [

@@ -31,6 +31,9 @@ const messaging = firebase.messaging();
 
 // Aviso recibido con la web cerrada / en segundo plano
 messaging.onBackgroundMessage((payload) => {
+  // Si el mensaje ya trae 'notification', Firebase la muestra solo:
+  // no la pintamos otra vez (evita el aviso duplicado).
+  if (payload.notification) return;
   const n = payload.notification || {};
   self.registration.showNotification(n.title || 'San Luis', {
     body: n.body || '',

@@ -4,7 +4,7 @@
 self.addEventListener('notificationclick', (event) => {
   event.notification.close();
   event.stopImmediatePropagation();
-  const destino = self.registration.scope; // https://fiestas.realsitio.info/
+  const destino = self.location.origin + '/'; // raíz de la web (el scope de Firebase NO es la raíz)
   event.waitUntil((async () => {
     const ventanas = await clients.matchAll({ type: 'window', includeUncontrolled: true });
     for (const c of ventanas) {

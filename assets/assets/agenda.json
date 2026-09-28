@@ -1,7 +1,7 @@
 {
   "meta": {
     "nombre": "Agenda del Real Sitio",
-    "actualizado": "2026-09-26"
+    "actualizado": "2026-09-28"
   },
   "categorias": [
     {
@@ -64,6 +64,34 @@
   "anuncios": [],
   "actos": [
     {
+      "id": "ag-expo-ceneam-cuando-el-paisaje-duele",
+      "fecha": "2026-01-01",
+      "fecha_fin": "permanente",
+      "titulo": "«Cuando el paisaje duele»",
+      "descripcion": "39 obras de alumnos del Curso de Pintores Pensionados de 2019 (Real Academia de Historia y Arte de San Quirce de Segovia), inspiradas en los incendios que sufrió la sierra de Guadarrama aquel verano.\n\nHorario: lunes a viernes de 9:00 a 14:00. Entrada gratuita.\n\nSe recomienda llamar antes: 921 47 17 11 / 921 47 17 44. Reservas: 921 47 38 80.\n\nPaseo José María Ruiz-Dana, s/n – Valsaín",
+      "categoria": "exposicion",
+      "lugar_nota": "CENEAM (Valsaín)"
+    },
+    {
+      "id": "ag-2026-expo-ceneam-cronicas-gabarreras",
+      "fecha": "2026-08-31",
+      "fecha_fin": "2026-12-01",
+      "titulo": "«Un paseo por las portadas de Crónicas Gabarreras»",
+      "descripcion": "Exposición de pintura de Juan José Martín Encinas.\n\nHorario:\n· Lunes a jueves: 9:00–17:00\n· Viernes: 9:00–14:00\n\nSe inauguró el 31 de agosto en el CENEAM de Valsaín.",
+      "categoria": "exposicion",
+      "lugar_nota": "CENEAM (Valsaín)",
+      "cartel": "https://raw.githubusercontent.com/Letifico/La-Granja-app/main/carteles/expo-cronicas-gabarreras-2026.jpg"
+    },
+    {
+      "id": "ag-2026-expo-zaca-en-busca-de-la-luz",
+      "fecha": "2026-09-06",
+      "fecha_fin": "2026-10-25",
+      "titulo": "«En busca de la luz» · Acuarelas de Covadonga García",
+      "descripcion": "Exposición de acuarelas.\n\nHorario:\n· Martes a viernes: 11:30–14:00 y 17:15–19:30\n· Sábados, domingos y festivos: 11:30–20:00\n\nTeléfono: 606 25 45 87",
+      "categoria": "exposicion",
+      "lugar_nota": "Galería de Arte Zaca (Plaza del Vidriado)"
+    },
+    {
       "id": "ag-2026-09-26-penalara-trail",
       "fecha": "2026-09-26",
       "hora": "08:00",
@@ -95,6 +123,187 @@
       "cartel": "https://raw.githubusercontent.com/Letifico/La-Granja-app/main/carteles/flamencura-calendario-2027.jpg"
     },
     {
+      "id": "ag-2026-10-02-carrera-indias-01",
+      "fecha": "2026-10-02",
+      "hora": "17:00",
+      "titulo": "IV Jornadas de la Carrera de Indias · Inauguración de las Jornadas",
+      "descripcion": "De 17:00 a 17:20.\n\nIntervienen:\n· Samuel Alonso Llorente, alcalde del Real Sitio de San Ildefonso\n· Sonia Juárez Boal, secretaria general de la Asociación MUCAIN\n· Andrés Ortega García, presidente de la Fundación Centro Nacional del Vidrio\n\nIV Jornadas de la Carrera de Indias: «La Granja, el efecto mariposa y la contribución hispana a la independencia de EEUU en su 250 aniversario».\n\nPlazas limitadas (100 por día): reserva con el botón «Reservar plaza». Organiza MUCAIN (Museo Carrera de Indias).",
+      "categoria": "cultura",
+      "lugar_nota": "Real Fábrica de Cristales",
+      "cartel": "https://raw.githubusercontent.com/Letifico/La-Granja-app/main/carteles/carrera-indias-2026.jpg",
+      "destacado": true,
+      "entrada": true,
+      "entrada_url": "https://www.eventbrite.es/e/1998909516172",
+      "entrada_texto": "Reservar plaza"
+    },
+    {
+      "id": "ag-2026-10-02-carrera-indias-02",
+      "fecha": "2026-10-02",
+      "hora": "17:20",
+      "titulo": "IV Jornadas de la Carrera de Indias · La contribución desde La Granja a la independencia de EEUU: la patente de corso de 1779",
+      "descripcion": "De 17:20 a 18:20.\n\nPonente: Ricardo A. Fernández González, ingeniero, escritor, divulgador histórico y fundador de MUCAIN.\n\nIV Jornadas de la Carrera de Indias: «La Granja, el efecto mariposa y la contribución hispana a la independencia de EEUU en su 250 aniversario».\n\nPlazas limitadas (100 por día): reserva con el botón «Reservar plaza». Organiza MUCAIN (Museo Carrera de Indias).",
+      "categoria": "cultura",
+      "lugar_nota": "Real Fábrica de Cristales",
+      "cartel": "https://raw.githubusercontent.com/Letifico/La-Granja-app/main/carteles/carrera-indias-2026.jpg",
+      "entrada": true,
+      "entrada_url": "https://www.eventbrite.es/e/1998909516172",
+      "entrada_texto": "Reservar plaza"
+    },
+    {
+      "id": "ag-2026-10-02-carrera-indias-03",
+      "fecha": "2026-10-02",
+      "hora": "18:45",
+      "titulo": "IV Jornadas de la Carrera de Indias · El esplendor de la América española",
+      "descripcion": "De 18:45 a 19:30.\n\nDe cómo España llevó al Nuevo Mundo lo mejor de sí misma.\n\nPonente: José Manuel Azcona Pastor, doctor en Historia y catedrático de Historia Contemporánea en la Universidad Rey Juan Carlos.\n\nIV Jornadas de la Carrera de Indias: «La Granja, el efecto mariposa y la contribución hispana a la independencia de EEUU en su 250 aniversario».\n\nPlazas limitadas (100 por día): reserva con el botón «Reservar plaza». Organiza MUCAIN (Museo Carrera de Indias).",
+      "categoria": "cultura",
+      "lugar_nota": "Real Fábrica de Cristales",
+      "cartel": "https://raw.githubusercontent.com/Letifico/La-Granja-app/main/carteles/carrera-indias-2026.jpg",
+      "entrada": true,
+      "entrada_url": "https://www.eventbrite.es/e/1998909516172",
+      "entrada_texto": "Reservar plaza"
+    },
+    {
+      "id": "ag-2026-10-02-cigce-matar-al-presidente",
+      "fecha": "2026-10-02",
+      "hora": "19:00",
+      "titulo": "Matar al presidente · General Juan Prim (1870)",
+      "categoria": "cultura",
+      "lugar_nota": "Salón Siglo XXI del Ayuntamiento",
+      "cartel": "https://raw.githubusercontent.com/Letifico/La-Granja-app/main/carteles/cigce-matar-al-presidente-2026.jpg",
+      "descripcion": "Seminario «Matar al presidente. Cinco magnicidios en la historia de España» · sesión 1 de 5.\n\nEl ciclo repasa los asesinatos de cinco presidentes del Gobierno, de Prim a Carrero Blanco, para entender por qué ocurrieron y el contexto histórico de cada uno.\n\nPonentes: Diego Caro Cancela (Universidad de Cádiz) y Diego Cameno Mayo (Universidad Complutense de Madrid).\nModera: Ángel Herrerín López (UNED).\n\nAcceso libre hasta completar aforo.\n\nOrganizan el Centro de Investigaciones Históricas (CIGCE), el Ayuntamiento del Real Sitio y el Centro Asociado de la UNED en Segovia, con Verescence.",
+      "destacado": true
+    },
+    {
+      "id": "ag-2026-10-02-carrera-indias-04",
+      "fecha": "2026-10-02",
+      "hora": "19:30",
+      "titulo": "IV Jornadas de la Carrera de Indias · Nutka, el septentrión español (1774-1793)",
+      "descripcion": "De 19:30 a 20:15.\n\nLa costa noroeste de Norteamérica.\n\nPonente: Eduardo Bernal González Villegas, capitán de navío retirado, académico y divulgador.\n\nIV Jornadas de la Carrera de Indias: «La Granja, el efecto mariposa y la contribución hispana a la independencia de EEUU en su 250 aniversario».\n\nPlazas limitadas (100 por día): reserva con el botón «Reservar plaza». Organiza MUCAIN (Museo Carrera de Indias).",
+      "categoria": "cultura",
+      "lugar_nota": "Real Fábrica de Cristales",
+      "cartel": "https://raw.githubusercontent.com/Letifico/La-Granja-app/main/carteles/carrera-indias-2026.jpg",
+      "entrada": true,
+      "entrada_url": "https://www.eventbrite.es/e/1998909516172",
+      "entrada_texto": "Reservar plaza"
+    },
+    {
+      "id": "ag-2026-10-03-carrera-indias-05",
+      "fecha": "2026-10-03",
+      "hora": "10:00",
+      "titulo": "IV Jornadas de la Carrera de Indias · Recepción de participantes",
+      "descripcion": "De 10:00 a 10:30.\n\nRecepción y presentación de la jornada del sábado.\n\nIV Jornadas de la Carrera de Indias: «La Granja, el efecto mariposa y la contribución hispana a la independencia de EEUU en su 250 aniversario».\n\nPlazas limitadas (100 por día): reserva con el botón «Reservar plaza». Organiza MUCAIN (Museo Carrera de Indias).",
+      "categoria": "cultura",
+      "lugar_nota": "Real Fábrica de Cristales",
+      "cartel": "https://raw.githubusercontent.com/Letifico/La-Granja-app/main/carteles/carrera-indias-2026.jpg",
+      "entrada": true,
+      "entrada_url": "https://www.eventbrite.es/e/1998909516172",
+      "entrada_texto": "Reservar plaza"
+    },
+    {
+      "id": "ag-2026-10-03-carrera-indias-06",
+      "fecha": "2026-10-03",
+      "hora": "10:30",
+      "titulo": "IV Jornadas de la Carrera de Indias · La influencia de la Escuela de Salamanca en la Constitución de EEUU",
+      "descripcion": "De 10:30 a 11:10.\n\nPonentes:\n· Beatriz Paredes, presidenta de la Fundación Unidos por la Historia\n· Elizabeth Wise, miembro de la National Society Daughters of the American Revolution\n\nIV Jornadas de la Carrera de Indias: «La Granja, el efecto mariposa y la contribución hispana a la independencia de EEUU en su 250 aniversario».\n\nPlazas limitadas (100 por día): reserva con el botón «Reservar plaza». Organiza MUCAIN (Museo Carrera de Indias).",
+      "categoria": "cultura",
+      "lugar_nota": "Real Fábrica de Cristales",
+      "cartel": "https://raw.githubusercontent.com/Letifico/La-Granja-app/main/carteles/carrera-indias-2026.jpg",
+      "entrada": true,
+      "entrada_url": "https://www.eventbrite.es/e/1998909516172",
+      "entrada_texto": "Reservar plaza"
+    },
+    {
+      "id": "ag-2026-10-03-carrera-indias-07",
+      "fecha": "2026-10-03",
+      "hora": "11:10",
+      "titulo": "IV Jornadas de la Carrera de Indias · El apoyo de los empresarios españoles a la independencia de EEUU",
+      "descripcion": "De 11:10 a 11:50.\n\nPonente: Pilar Almagro, CEO de VertiSub y divulgadora.\n\nIV Jornadas de la Carrera de Indias: «La Granja, el efecto mariposa y la contribución hispana a la independencia de EEUU en su 250 aniversario».\n\nPlazas limitadas (100 por día): reserva con el botón «Reservar plaza». Organiza MUCAIN (Museo Carrera de Indias).",
+      "categoria": "cultura",
+      "lugar_nota": "Real Fábrica de Cristales",
+      "cartel": "https://raw.githubusercontent.com/Letifico/La-Granja-app/main/carteles/carrera-indias-2026.jpg",
+      "entrada": true,
+      "entrada_url": "https://www.eventbrite.es/e/1998909516172",
+      "entrada_texto": "Reservar plaza"
+    },
+    {
+      "id": "ag-2026-10-03-carrera-indias-08",
+      "fecha": "2026-10-03",
+      "hora": "12:20",
+      "titulo": "IV Jornadas de la Carrera de Indias · Mesa redonda: el Pacífico Norte y la independencia de EEUU",
+      "descripcion": "De 12:20 a 13:00.\n\nPolíticas, fronteras y legado hispano.\n\nParticipan:\n· Ignacio Ruiz Rodríguez, catedrático de Historia del Derecho y de las Instituciones (Universidad Rey Juan Carlos)\n· Gonzalo Rodríguez Carmona, presidente y fundador de Territorio Emprendimiento y Talento Hispano\n\nIV Jornadas de la Carrera de Indias: «La Granja, el efecto mariposa y la contribución hispana a la independencia de EEUU en su 250 aniversario».\n\nPlazas limitadas (100 por día): reserva con el botón «Reservar plaza». Organiza MUCAIN (Museo Carrera de Indias).",
+      "categoria": "cultura",
+      "lugar_nota": "Real Fábrica de Cristales",
+      "cartel": "https://raw.githubusercontent.com/Letifico/La-Granja-app/main/carteles/carrera-indias-2026.jpg",
+      "entrada": true,
+      "entrada_url": "https://www.eventbrite.es/e/1998909516172",
+      "entrada_texto": "Reservar plaza"
+    },
+    {
+      "id": "ag-2026-10-03-carrera-indias-09",
+      "fecha": "2026-10-03",
+      "hora": "13:00",
+      "titulo": "IV Jornadas de la Carrera de Indias · El Fuerte Mosé",
+      "descripcion": "De 13:00 a 13:40.\n\nLa primera comunidad de negros libres de Norteamérica, bajo bandera española.\n\nPonente: César Pérez Guevara, historiador, abogado y presidente del Centro de Estudios Roscio.\n\nIV Jornadas de la Carrera de Indias: «La Granja, el efecto mariposa y la contribución hispana a la independencia de EEUU en su 250 aniversario».\n\nPlazas limitadas (100 por día): reserva con el botón «Reservar plaza». Organiza MUCAIN (Museo Carrera de Indias).",
+      "categoria": "cultura",
+      "lugar_nota": "Real Fábrica de Cristales",
+      "cartel": "https://raw.githubusercontent.com/Letifico/La-Granja-app/main/carteles/carrera-indias-2026.jpg",
+      "entrada": true,
+      "entrada_url": "https://www.eventbrite.es/e/1998909516172",
+      "entrada_texto": "Reservar plaza"
+    },
+    {
+      "id": "ag-2026-10-03-carrera-indias-10",
+      "fecha": "2026-10-03",
+      "hora": "16:00",
+      "titulo": "IV Jornadas de la Carrera de Indias · El café de los hispanistas",
+      "descripcion": "De 16:00 a 17:00.\n\nEncuentro informal de la tarde del sábado.\n\nIV Jornadas de la Carrera de Indias: «La Granja, el efecto mariposa y la contribución hispana a la independencia de EEUU en su 250 aniversario».\n\nPlazas limitadas (100 por día): reserva con el botón «Reservar plaza». Organiza MUCAIN (Museo Carrera de Indias).",
+      "categoria": "cultura",
+      "lugar_nota": "Real Fábrica de Cristales",
+      "cartel": "https://raw.githubusercontent.com/Letifico/La-Granja-app/main/carteles/carrera-indias-2026.jpg",
+      "entrada": true,
+      "entrada_url": "https://www.eventbrite.es/e/1998909516172",
+      "entrada_texto": "Reservar plaza"
+    },
+    {
+      "id": "ag-2026-10-03-carrera-indias-11",
+      "fecha": "2026-10-03",
+      "hora": "17:00",
+      "titulo": "IV Jornadas de la Carrera de Indias · Mesa redonda: el real de a 8, la moneda de la independencia",
+      "descripcion": "De 17:00 a 18:00.\n\nParticipan:\n· Rafael Feria, director del Museo Casa de la Moneda de Madrid\n· Glenn Murray, numismático y escritor\n\nIV Jornadas de la Carrera de Indias: «La Granja, el efecto mariposa y la contribución hispana a la independencia de EEUU en su 250 aniversario».\n\nPlazas limitadas (100 por día): reserva con el botón «Reservar plaza». Organiza MUCAIN (Museo Carrera de Indias).",
+      "categoria": "cultura",
+      "lugar_nota": "Real Fábrica de Cristales",
+      "cartel": "https://raw.githubusercontent.com/Letifico/La-Granja-app/main/carteles/carrera-indias-2026.jpg",
+      "entrada": true,
+      "entrada_url": "https://www.eventbrite.es/e/1998909516172",
+      "entrada_texto": "Reservar plaza"
+    },
+    {
+      "id": "ag-2026-10-03-carrera-indias-12",
+      "fecha": "2026-10-03",
+      "hora": "18:00",
+      "titulo": "IV Jornadas de la Carrera de Indias · Los Tratados de San Ildefonso y el Nuevo Mundo",
+      "descripcion": "De 18:00 a 19:00.\n\nPonente: Eduardo Juárez Valero, historiador, paleógrafo y profesor de la Universidad Carlos III.\n\nIV Jornadas de la Carrera de Indias: «La Granja, el efecto mariposa y la contribución hispana a la independencia de EEUU en su 250 aniversario».\n\nPlazas limitadas (100 por día): reserva con el botón «Reservar plaza». Organiza MUCAIN (Museo Carrera de Indias).",
+      "categoria": "cultura",
+      "lugar_nota": "Real Fábrica de Cristales",
+      "cartel": "https://raw.githubusercontent.com/Letifico/La-Granja-app/main/carteles/carrera-indias-2026.jpg",
+      "entrada": true,
+      "entrada_url": "https://www.eventbrite.es/e/1998909516172",
+      "entrada_texto": "Reservar plaza"
+    },
+    {
+      "id": "ag-2026-10-03-carrera-indias-13",
+      "fecha": "2026-10-03",
+      "hora": "19:00",
+      "titulo": "IV Jornadas de la Carrera de Indias · Clausura de las Jornadas",
+      "descripcion": "Con Sara Bieger, de Amigos de MUCAIN.\n\nIV Jornadas de la Carrera de Indias: «La Granja, el efecto mariposa y la contribución hispana a la independencia de EEUU en su 250 aniversario».\n\nPlazas limitadas (100 por día): reserva con el botón «Reservar plaza». Organiza MUCAIN (Museo Carrera de Indias).",
+      "categoria": "cultura",
+      "lugar_nota": "Real Fábrica de Cristales",
+      "cartel": "https://raw.githubusercontent.com/Letifico/La-Granja-app/main/carteles/carrera-indias-2026.jpg",
+      "entrada": true,
+      "entrada_url": "https://www.eventbrite.es/e/1998909516172",
+      "entrada_texto": "Reservar plaza"
+    },
+    {
       "id": "ag-2026-10-10-feria-cerveza",
       "fecha": "2026-10-10",
       "hora": "12:00",
@@ -104,6 +313,16 @@
       "lugar_nota": "Plaza de los Dolores",
       "destacado": true,
       "cartel": "https://raw.githubusercontent.com/Letifico/La-Granja-app/main/carteles/feria-cerveza-2026.jpg"
+    },
+    {
+      "id": "ag-2026-10-16-cigce-matar-al-presidente",
+      "fecha": "2026-10-16",
+      "hora": "19:00",
+      "titulo": "Matar al presidente · Antonio Cánovas del Castillo (1897)",
+      "categoria": "cultura",
+      "lugar_nota": "Salón Siglo XXI del Ayuntamiento",
+      "cartel": "https://raw.githubusercontent.com/Letifico/La-Granja-app/main/carteles/cigce-matar-al-presidente-2026.jpg",
+      "descripcion": "Seminario «Matar al presidente. Cinco magnicidios en la historia de España» · sesión 2 de 5.\n\nEl ciclo repasa los asesinatos de cinco presidentes del Gobierno, de Prim a Carrero Blanco, para entender por qué ocurrieron y el contexto histórico de cada uno.\n\nPonentes: Eduardo González Calleja (Universidad Carlos III de Madrid) y Ángel Herrerín López (UNED).\nModera: Ángel Herrerín López (UNED).\n\nAcceso libre hasta completar aforo.\n\nOrganizan el Centro de Investigaciones Históricas (CIGCE), el Ayuntamiento del Real Sitio y el Centro Asociado de la UNED en Segovia, con Verescence."
     },
     {
       "id": "ag-2026-10-17-canonigos-viaje-ida-vuelta",
@@ -117,6 +336,26 @@
       "cartel": "https://raw.githubusercontent.com/Letifico/La-Granja-app/main/carteles/teatro-canonigos-2026.jpg"
     },
     {
+      "id": "ag-2026-10-30-cigce-matar-al-presidente",
+      "fecha": "2026-10-30",
+      "hora": "19:00",
+      "titulo": "Matar al presidente · Eduardo Dato (1921)",
+      "categoria": "cultura",
+      "lugar_nota": "Salón Siglo XXI del Ayuntamiento",
+      "cartel": "https://raw.githubusercontent.com/Letifico/La-Granja-app/main/carteles/cigce-matar-al-presidente-2026.jpg",
+      "descripcion": "Seminario «Matar al presidente. Cinco magnicidios en la historia de España» · sesión 3 de 5.\n\nEl ciclo repasa los asesinatos de cinco presidentes del Gobierno, de Prim a Carrero Blanco, para entender por qué ocurrieron y el contexto histórico de cada uno.\n\nPonentes: Antonio Bar Cendón (Universidad de Valencia) y Francisco Balado Insunza (UNED).\nModera: Ángel Herrerín López (UNED).\n\nAcceso libre hasta completar aforo.\n\nOrganizan el Centro de Investigaciones Históricas (CIGCE), el Ayuntamiento del Real Sitio y el Centro Asociado de la UNED en Segovia, con Verescence."
+    },
+    {
+      "id": "ag-2026-11-13-cigce-matar-al-presidente",
+      "fecha": "2026-11-13",
+      "hora": "19:00",
+      "titulo": "Matar al presidente · José Canalejas (1912)",
+      "categoria": "cultura",
+      "lugar_nota": "Salón Siglo XXI del Ayuntamiento",
+      "cartel": "https://raw.githubusercontent.com/Letifico/La-Granja-app/main/carteles/cigce-matar-al-presidente-2026.jpg",
+      "descripcion": "Seminario «Matar al presidente. Cinco magnicidios en la historia de España» · sesión 4 de 5.\n\nEl ciclo repasa los asesinatos de cinco presidentes del Gobierno, de Prim a Carrero Blanco, para entender por qué ocurrieron y el contexto histórico de cada uno.\n\nPonentes: Javier Moreno Luzón (Universidad Complutense de Madrid) y Susana Sueiro Seoane (UNED).\nModera: Ángel Herrerín López (UNED).\n\nAcceso libre hasta completar aforo.\n\nOrganizan el Centro de Investigaciones Históricas (CIGCE), el Ayuntamiento del Real Sitio y el Centro Asociado de la UNED en Segovia, con Verescence."
+    },
+    {
       "id": "ag-2026-11-14-canonigos-que-pacha-mama",
       "fecha": "2026-11-14",
       "hora": "17:00",
@@ -128,6 +367,16 @@
       "cartel": "https://raw.githubusercontent.com/Letifico/La-Granja-app/main/carteles/teatro-canonigos-2026.jpg"
     },
     {
+      "id": "ag-2026-11-27-cigce-matar-al-presidente",
+      "fecha": "2026-11-27",
+      "hora": "19:00",
+      "titulo": "Matar al presidente · Luis Carrero Blanco (1973)",
+      "categoria": "cultura",
+      "lugar_nota": "Salón Siglo XXI del Ayuntamiento",
+      "cartel": "https://raw.githubusercontent.com/Letifico/La-Granja-app/main/carteles/cigce-matar-al-presidente-2026.jpg",
+      "descripcion": "Seminario «Matar al presidente. Cinco magnicidios en la historia de España» · sesión 5 de 5.\n\nEl ciclo repasa los asesinatos de cinco presidentes del Gobierno, de Prim a Carrero Blanco, para entender por qué ocurrieron y el contexto histórico de cada uno.\n\nPonentes: Sagrario Morán Blanco (Universidad Rey Juan Carlos) y José Mª Marín Arce (UNED).\nModera: Ángel Herrerín López (UNED).\n\nAcceso libre hasta completar aforo.\n\nOrganizan el Centro de Investigaciones Históricas (CIGCE), el Ayuntamiento del Real Sitio y el Centro Asociado de la UNED en Segovia, con Verescence."
+    },
+    {
       "id": "ag-2026-12-05-canonigos-cartero-real",
       "fecha": "2026-12-05",
       "hora": "17:00",
@@ -137,34 +386,6 @@
       "lugar_nota": "Teatro Canónigos",
       "entrada": true,
       "cartel": "https://raw.githubusercontent.com/Letifico/La-Granja-app/main/carteles/teatro-canonigos-2026.jpg"
-    },
-    {
-      "id": "ag-2026-expo-zaca-en-busca-de-la-luz",
-      "fecha": "2026-09-06",
-      "fecha_fin": "2026-10-25",
-      "titulo": "«En busca de la luz» · Acuarelas de Covadonga García",
-      "descripcion": "Exposición de acuarelas.\n\nHorario:\n· Martes a viernes: 11:30–14:00 y 17:15–19:30\n· Sábados, domingos y festivos: 11:30–20:00\n\nTeléfono: 606 25 45 87",
-      "categoria": "exposicion",
-      "lugar_nota": "Galería de Arte Zaca (Plaza del Vidriado)"
-    },
-    {
-      "id": "ag-2026-expo-ceneam-cronicas-gabarreras",
-      "fecha": "2026-08-31",
-      "fecha_fin": "2026-12-01",
-      "titulo": "«Un paseo por las portadas de Crónicas Gabarreras»",
-      "descripcion": "Exposición de pintura de Juan José Martín Encinas.\n\nHorario:\n· Lunes a jueves: 9:00–17:00\n· Viernes: 9:00–14:00\n\nSe inauguró el 31 de agosto en el CENEAM de Valsaín.",
-      "categoria": "exposicion",
-      "lugar_nota": "CENEAM (Valsaín)",
-      "cartel": "https://raw.githubusercontent.com/Letifico/La-Granja-app/main/carteles/expo-cronicas-gabarreras-2026.jpg"
-    },
-    {
-      "id": "ag-expo-ceneam-cuando-el-paisaje-duele",
-      "fecha": "2026-01-01",
-      "fecha_fin": "permanente",
-      "titulo": "«Cuando el paisaje duele»",
-      "descripcion": "39 obras de alumnos del Curso de Pintores Pensionados de 2019 (Real Academia de Historia y Arte de San Quirce de Segovia), inspiradas en los incendios que sufrió la sierra de Guadarrama aquel verano.\n\nHorario: lunes a viernes de 9:00 a 14:00. Entrada gratuita.\n\nSe recomienda llamar antes: 921 47 17 11 / 921 47 17 44. Reservas: 921 47 38 80.\n\nPaseo José María Ruiz-Dana, s/n – Valsaín",
-      "categoria": "exposicion",
-      "lugar_nota": "CENEAM (Valsaín)"
     }
   ]
 }

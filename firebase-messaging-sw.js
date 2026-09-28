@@ -8,7 +8,11 @@ self.addEventListener('notificationclick', (event) => {
   event.waitUntil((async () => {
     const ventanas = await clients.matchAll({ type: 'window', includeUncontrolled: true });
     for (const c of ventanas) {
-      if (c.url.startsWith(destino) && 'focus' in c) return c.focus();
+      // Solo se reutiliza una ventana que esté en la app (raíz, index.html o
+      // rutas #/...). Otra dirección (p. ej. una página de error) no vale.
+      const u = new URL(c.url);
+      const esApp = u.pathname === '/' || u.pathname === '/index.html';
+      if (esApp && 'focus' in c) return c.focus();
     }
     if (clients.openWindow) return clients.openWindow(destino);
   })());
